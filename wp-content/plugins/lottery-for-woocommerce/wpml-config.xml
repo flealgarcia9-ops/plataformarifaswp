@@ -1,0 +1,279 @@
+<wpml-config>
+    <admin-texts>
+        <!-- Messages-->
+        <!-- Single product page-->
+        <key name="lty_settings_single_product_min_ticket_message"/>
+        <key name="lty_settings_single_product_max_ticket_message"/>
+        <key name="lty_settings_single_product_min_tickets_per_user_message"/>
+        <key name="lty_settings_single_product_max_tickets_per_user_message"/>
+        <key name="lty_settings_single_product_current_ticket_sold_message"/>
+        <key name="lty_settings_single_product_lottery_winner_count_message"/>
+        <key name="lty_settings_single_product_lottery_gift_message"/>
+        <key name="lty_settings_single_product_outside_lottery_gift_message"/>
+        <key name="lty_settings_single_product_lottery_not_winners_message"/>
+        <key name="lty_settings_single_product_lottery_wait_message"/>
+        <key name="lty_settings_single_product_lottery_winner_message"/>
+        <key name="lty_settings_single_product_lottery_multi_winner_message"/>
+        <key name="lty_settings_single_product_guest_error_message"/>
+        <key name="lty_settings_single_product_validate_guest_error_message"/>
+        <key name="lty_settings_ip_address_restriction_error_message"/>
+        <key name="lty_settings_lucky_dip_question_answer_hover_message"/>
+        <key name="lty_settings_lucky_dip_added_to_cart_message"/>
+        <key name="lty_settings_question_answer_alert_error_message"/>
+        <key name="lty_settings_verify_question_answer_alert_error_message"/>
+        <key name="lty_settings_answer_time_limit_exists_error_message"/>
+        <key name="lty_settings_ticket_selection_alert_error_message"/>
+        <key name="lty_settings_limited_type_single_attempt_error_message"/>
+        <key name="lty_settings_maximum_tickets_purchase_limit_error_message"/>
+        <key name="lty_settings_user_chooses_ticket_search_error"/>
+        <key name="lty_settings_purchased_tickets_message"/>
+        <key name="lty_settings_minimum_tickets_not_met_error"/>
+        <key name="lty_settings_unique_winners_count_not_met_error"/>
+        <!-- Single product page -->
+        
+        <!-- Order -->
+        <key name="lty_settings_ticket_pending_payment_message"/>
+        <!-- Order -->
+        
+        <!-- Guest-->
+        <key name="lty_settings_guest_message"/>
+        <!-- Guest -->
+        
+        <!--Messages-->
+        
+        <!--Notification-->
+        <key name="lty_admin_lottery_started_subject"/>
+        <key name="lty_admin_lottery_started_message"/>
+        
+        <key name="lty_admin_lottery_ended_subject"/>
+        <key name="lty_admin_lottery_ended_message"/>
+        
+        <key name="lty_admin_lottery_relisted_subject"/>
+        <key name="lty_admin_lottery_relisted_message"/>
+        
+        <key name="lty_admin_winner_subject"/>
+        <key name="lty_admin_winner_message"/>
+        
+        <key name="lty_admin_lottery_failed_subject"/>
+        <key name="lty_admin_lottery_failed_message"/>
+        
+        <key name="lty_admin_lottery_ticket_confirmation_subject"/>
+        <key name="lty_admin_lottery_ticket_confirmation_message"/>
+        
+        <key name="lty_customer_lottery_ended_subject"/>
+        <key name="lty_customer_lottery_ended_message"/>
+        
+        <key name="lty_customer_lottery_relisted_subject"/>
+        <key name="lty_customer_lottery_relisted_message"/>
+        
+        <key name="lty_customer_winner_subject"/>
+        <key name="lty_customer_winner_message"/>
+        
+        <key name="lty_customer_multiple_winner_subject"/>
+        <key name="lty_customer_multiple_winner_message"/>
+        
+        <key name="lty_customer_lottery_failed_subject"/>
+        <key name="lty_customer_lottery_failed_message"/>
+        
+        <key name="lty_customer_lottery_ticket_confirmation_subject"/>
+        <key name="lty_customer_lottery_ticket_confirmation_message"/>
+        
+        <key name="lty_customer_no_luck_subject"/>
+        <key name="lty_customer_no_luck_message"/>
+        
+        <key name="lty_customer_lottery_selected_incorrect_answer_subject"/>
+        <key name="lty_customer_lottery_selected_incorrect_answer_message"/>
+
+        <key name="lty_settings_email_tickets_pdf_download_button_label"/>
+        <!--Notification-->
+        
+        <!-- General -->
+	
+        <!-- Ticket Settings-->
+        <key name="lty_settings_ticket_prefix"/>
+        <key name="lty_settings_ticket_suffix"/>
+        <!-- Ticket Settings-->
+
+        <!-- General -->
+
+        <!-- Localization -->
+	
+        <!-- Shop and Category Pages-->
+        <key name="lty_settings_shop_lottery_started_btn_label"/>
+        <key name="lty_settings_shop_lottery_finished_btn_label"/>
+        <key name="lty_settings_shop_lottery_closed_btn_label"/>
+        <key name="lty_settings_shop_lottery_failed_btn_label"/>
+        <key name="lty_settings_shop_lottery_not_started_btn_label"/>
+        <key name="lty_settings_shop_lottery_start_label"/>
+        <key name="lty_settings_shop_lottery_ends_label"/>
+        <key name="lty_settings_shop_lottery_days_label"/>
+        <key name="lty_settings_shop_lottery_hours_label"/>
+        <key name="lty_settings_shop_lottery_minutes_label"/>
+        <key name="lty_settings_shop_lottery_seconds_label"/>
+        <!-- Shop and Category Pages-->
+
+        <!-- Single Product Page Labels-->
+        <key name="lty_settings_single_product_time_left_start_label"/>
+        <key name="lty_settings_single_product_time_left_end_label"/>
+        <key name="lty_settings_single_product_start_label"/>
+        <key name="lty_settings_single_product_end_label"/>
+        <key name="lty_settings_single_product_ended_label"/>
+        <key name="lty_settings_single_product_price_label"/>
+        <key name="lty_settings_single_product_user_chooses_ticket_add_to_cart_label"/>
+        <key name="lty_settings_single_product_days_label"/>
+        <key name="lty_settings_single_product_hours_label"/>
+        <key name="lty_settings_single_product_minutes_label"/>
+        <key name="lty_settings_single_product_seconds_label"/>
+        <key name="lty_settings_single_product_progress_bar_remaining_ticket_label"/>
+        <key name="lty_settings_single_product_progress_bar_ticket_sold_notice_label"/>
+        <key name="lty_settings_single_product_ticket_search_button_label"/>
+        <key name="lty_settings_single_product_click_to_back_button_label"/>
+        <key name="lty_settings_single_product_lucky_dip_button_label"/>
+        <key name="lty_settings_single_product_lucky_dip_title_label"/>
+        <key name="lty_settings_single_product_lucky_dip_quantity_label"/>
+        <key name="lty_settings_single_product_generate_lucky_dip_button_label"/>
+        <key name="lty_settings_single_product_regenerate_lucky_dip_button_label"/>
+        <key name="lty_settings_single_product_lucky_dip_add_to_cart_button_label"/>
+        <key name="lty_settings_single_product_add_more_lucky_dip_button_label"/>
+        <key name="lty_settings_single_product_lucky_dip_view_cart_button_label"/>
+        <key name="lty_settings_single_product_generated_lucky_dip_tickets_label"/>
+        <key name="lty_settings_single_product_view_more_tickets_button_label"/>
+        <key name="lty_settings_single_product_view_less_tickets_button_label"/>
+        <key name="lty_settings_single_product_question_answer_heading_label"/>
+        <key name="lty_settings_question_answer_dropdown_default_label"/>
+        <key name="lty_settings_single_product_question_answer_time_limit_label"/>
+        <!-- Single Product Page Labels-->
+
+         <!-- Shortcode Lucky Dip Button-->
+        <key name="lty_settings_lucky_dip_fixed_quantity_shortcode_label"/>
+        <!-- Shortcode Lucky Dip Button-->
+
+        <!-- Single Product Page tab labels-->
+        <key name="lty_settings_single_product_tab_lottery_details_label"/>
+        <key name="lty_settings_tickets_search_button_label"/>
+        <key name="lty_settings_single_product_tab_username_label"/>
+        <key name="lty_settings_single_product_tab_ticket_number_label"/>
+        <key name="lty_settings_single_product_tab_date_label"/>
+        <key name="lty_settings_single_product_tab_answer_label"/>
+        <!-- Single Product Page tab labels-->
+        
+        <!-- Instant Winner Prize tab labels -->
+        <key name="lty_settings_instant_winners_tab_label"/>
+        <key name="lty_settings_instant_winners_available_prizes_count_label"/>
+        <key name="lty_settings_instant_winners_won_prizes_count_label"/>
+        <key name="lty_settings_instant_winners_image_column_label"/>
+        <key name="lty_settings_instant_winners_ticket_column_label"/>
+        <key name="lty_settings_instant_winners_prize_column_label"/>
+        <key name="lty_settings_instant_winners_column_label"/>
+        <key name="lty_settings_instant_winners_prize_available_label"/>
+        <key name="lty_settings_instant_winner_won_prize_label"/>
+        <!-- Instant Winner Prize tab labels -->
+
+        <!-- Winner labels -->
+        <key name="lty_settings_single_product_lottery_winner_label"/>
+        <key name="lty_settings_single_product_lottery_ticket_number_label"/>
+        <key name="lty_settings_single_product_lottery_gift_product_label"/>
+        <key name="lty_settings_single_product_lottery_answer_label"/>
+        <!-- Winner labels -->
+
+        <!-- Giveaway Dashboard-->
+        <key name="lty_settings_dashboard_my_lottery_label"/>
+        <!-- Giveaway Dashboard-->
+
+        <!-- Giveaway Dashboard - Participated Giveaways-->
+        <key name="lty_settings_dashboard_participated_lottery_label"/>
+        <key name="lty_settings_dashboard_participated_lottery_product_name_label"/>
+        <key name="lty_settings_dashboard_participated_lottery_duration_label"/>
+        <key name="lty_settings_dashboard_participated_lottery_status_label"/>
+        <key name="lty_settings_dashboard_participated_lottery_ticket_number_label"/>
+        <key name="lty_settings_dashboard_participated_lottery_order_id_label"/>
+        <key name="lty_settings_dashboard_participated_lottery_answer_label"/>
+        <key name="lty_settings_dashboard_participated_lotteries_url_param"/>
+        <!-- Giveaway Dashboard - Participated Giveaways-->
+
+        <!-- Giveaway Dashboard - Won Giveaways-->
+        <key name="lty_settings_dashboard_won_lottery_label"/>
+        <key name="lty_settings_dashboard_won_lottery_product_name_label"/>
+        <key name="lty_settings_dashboard_won_lottery_duration_label"/>
+        <key name="lty_settings_dashboard_won_lottery_status_label"/>
+        <key name="lty_settings_dashboard_won_lottery_ticket_number_label"/>
+        <key name="lty_settings_dashboard_won_lottery_gift_product_label"/>
+        <key name="lty_settings_dashboard_won_lottery_order_id_label"/>
+        <key name="lty_settings_dashboard_won_lottery_answer_label"/>
+        <key name="lty_settings_dashboard_won_lotteries_url_param"/>
+        <!-- Giveaway Dashboard - Won Giveaways-->
+
+        <!-- Giveaway Dashboard - Lost Giveaways-->
+        <key name="lty_settings_dashboard_not_won_lottery_label"/>
+        <key name="lty_settings_dashboard_not_won_lottery_product_name_label"/>
+        <key name="lty_settings_dashboard_not_won_lottery_duration_label"/>
+        <key name="lty_settings_dashboard_not_won_lottery_status_label"/>
+        <key name="lty_settings_dashboard_not_won_lottery_ticket_number_label"/>
+        <key name="lty_settings_dashboard_not_won_lottery_answer_label"/>
+        <key name="lty_settings_dashboard_not_won_lotteries_url_param"/>
+        <key name="lty_settings_myaccount_lottery_menu_label"/>
+        <key name="lty_settings_myaccount_lottery_menu_endpoint_url"/>
+        <!-- Giveaway Dashboard - Lost Giveaways-->
+	
+        <!-- Giveaway Dashboard - Instant Win -->
+        <key name="lty_settings_dashboard_instant_win_label"/>
+        <key name="lty_settings_dashboard_instant_win_product_name_label"/>
+        <key name="lty_settings_dashboard_instant_win_lottery_duration_label"/>
+        <key name="lty_settings_dashboard_instant_win_order_id_label"/>
+        <key name="lty_settings_dashboard_instant_win_ticket_number_label"/>
+        <key name="lty_settings_dashboard_instant_win_prize_details_label"/>
+        <!-- Giveaway Dashboard - Instant Win -->
+        
+        <!-- Giveaway Status Labels-->
+        <key name="lty_settings_lottery_not_started_label"/>
+        <key name="lty_settings_lottery_started_label"/>
+        <key name="lty_settings_lottery_closed_label"/>
+        <key name="lty_settings_lottery_finished_label"/>
+        <key name="lty_settings_lottery_failed_label"/>
+        <!-- Giveaway Status Labels-->
+        
+        <!-- Predefined Buttons Labels-->
+        <key name="lty_settings_predefined_buttons_heading"/>
+        <key name="lty_settings_predefined_buttons_participate_now_label"/>
+        <key name="lty_settings_predefined_buttons_alert_error_message"/>
+        <!-- Predefined Buttons Labels-->
+	
+        <!-- Giveaway Winners List Shortcode Labels-->
+        <key name="lty_settings_winners_list_shortcode_title"/>
+        <key name="lty_settings_winners_list_shortcode_sno_label"/>
+        <key name="lty_settings_winners_list_shortcode_winners_name_label"/>
+        <key name="lty_settings_winners_list_shortcode_ticket_number_label"/>
+        <key name="lty_settings_winners_list_shortcode_product_name_label"/>
+        <key name="lty_settings_winners_list_shortcode_start_date_label"/>
+        <key name="lty_settings_winners_list_shortcode_end_date_label"/>
+        <key name="lty_settings_winners_list_shortcode_gift_products_label"/>
+        <!-- Giveaway Winners List Shortcode Labels-->
+        
+        <!-- Giveaway Entry List Labels-->
+        <key name="lty_settings_entry_list_view_participants_label"/>
+        <key name="lty_settings_entry_list_status_label"/>
+        <key name="lty_settings_entry_list_start_date_label"/>
+        <key name="lty_settings_entry_list_end_date_label"/>
+        <key name="lty_settings_entry_list_winner_count_label"/>
+        <key name="lty_settings_entry_list_maximum_tickets_count_label"/>
+        <key name="lty_settings_entry_list_purchased_tickets_count_label"/>
+        <key name="lty_settings_entry_list_remaining_tickets_count_label"/>
+        <!-- Giveaway Entry List Labels-->
+
+        <!-- Other Pages Labels -->
+        <key name="lty_settings_ticket_pdf_header"/>
+        <key name="lty_settings_ticket_pdf_footer"/>
+        <key name="lty_settings_order_instant_winners_heading"/>
+        <key name="lty_settings_order_instant_winners_product_name_label"/>
+        <key name="lty_settings_order_instant_winners_ticket_number_label"/>
+        <key name="lty_settings_order_instant_winners_prize_label"/>
+        <key name="lty_settings_thankyou_page_instant_win_better_luck_msg"/>
+        <key name="lty_settings_order_details_page_instant_win_better_luck_msg"/>
+        <key name="lty_settings_thankyou_page_instant_win_gift_product_msg"/>
+        <key name="lty_settings_order_details_page_instant_win_gift_product_msg"/>
+        <!-- Other Pages Labels -->
+
+        <!-- Localization -->
+
+    </admin-texts>
+</wpml-config>

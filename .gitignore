@@ -1,0 +1,32 @@
+# WordPress - Archivos que NO se suben al repo
+wp-config.php
+wp-content/uploads/
+wp-content/cache/
+wp-content/backup*/
+wp-content/upgrade/
+wp-content/plugins/akismet/
+wp-content/plugins/hello.php
+wp-content/themes/twentytwenty*/
+
+# Logs
+*.log
+error_log
+access_log
+
+# Sistema
+.DS_Store
+Thumbs.db
+*.swp
+*.swo
+*~
+
+# Dependencias
+node_modules/
+vendor/
+
+# Archivos de entorno
+.env
+.env.local
+
+# Caches
+*.cache

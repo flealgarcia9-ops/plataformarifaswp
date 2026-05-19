@@ -1,0 +1,1334 @@
+.lty_parameter_syntax,
+.lty_parameter_list,
+.lty-form-table,
+.lty-email-shortcodes-info,
+.lty-server-cron-info {
+	margin-bottom: 20px !important;
+}
+
+.lty_parameter_syntax th,
+.lty_parameter_list th,
+.lty-form-table th,
+.lty-email-shortcodes-info th,
+.lty_notifications_table th,
+.lty-server-cron-info th {
+	padding-left: 10px;
+}
+
+.lty-valid-data {
+	color: #0da83b;
+}
+
+.lty-non-valid-data {
+	color: #ce2222;
+}
+
+a.lty_manual_winner_data {
+	color: #E60BCE;
+}
+
+.lty-correct-answer {
+	color: #0F0 !important;
+}
+
+.lty-wrong-answer {
+	color: #F00 !important;
+}
+
+.lty_lottery_uploaded_image_preview img {
+	width: 100px;
+	height: auto;
+	margin-top: 10px;
+}
+
+.lty_lottery_closed_product_tab {
+	pointer-events: none;
+	opacity: 0.7;
+}
+
+.lty-product-overview,
+.lty-product-overview-container,
+.lty-view-winner-log {
+	width: 100%;
+	float: left;
+}
+
+.lty-disabled {
+	opacity: 0.5;
+	cursor: not-allowed;
+	pointer-events: none;
+}
+
+.lty-product-overview-container {
+	background: #fff;
+	margin-bottom: 15px;
+	border: 1px solid #ccc;
+}
+
+.lty-product-status,
+.lty-lottery-configuration {
+	float: left;
+	width: 46%;
+	padding: 10px;
+}
+
+.lty-product-overview-container h3 {
+	margin-top: 10px;
+	padding-bottom: 15px;
+	border-bottom: 1px dashed #000;
+}
+
+.lty-lottery-configuration {
+	margin-left: 2%;
+	border-left: 1px solid #ccc;
+}
+
+.lty-product-status p,
+.lty-lottery-configuration p {
+	display: table;
+	margin: 0;
+	padding: 4px;
+	width: 100%;
+}
+
+.lty-product-status p span,
+.lty-lottery-configuration p span {
+	display: table-cell;
+	padding: 3px;
+}
+
+.lty-product-status .lty_status_label span {
+	padding: 8px;
+}
+
+.lty-product-overview-container .lty-table-cell {
+	display: table-cell;
+	width: 47.5%;
+	vertical-align: top;
+}
+
+.lty-product-overview-container p span:first-child {
+	color: #000;
+	font-weight: 600;
+}
+
+.lty-product-overview-container .lty-table-value-separator {
+	display: table-cell;
+	width: 5%;
+	vertical-align: middle;
+}
+
+.lty-product-overview-container .lty-table-cell {
+	display: table-cell;
+	width: 47.5%;
+	vertical-align: middle
+}
+
+.lty-product-status p span,
+.lty-lottery-configuration p span span {
+	display: inline;
+}
+
+.lty-product-status p span:first-child,
+.lty-lottery-configuration p span:first-child {
+	font-weight: 500;
+}
+
+/* Lottery tickets search start */
+#lty-ticket-list-table #doaction {
+	margin: 0;
+}
+
+#lty-ticket-list-table .lty-search-field-button {
+	margin-left: 5px;
+}
+
+/* Lottery tickets search start */
+.lty-search-field-button {
+	font-weight: bold;
+}
+
+.lty-lottery-tickets-search-wrapper,
+.lty-instant-winners-tickets-search-wrapper {
+	float: left;
+	background: #fff;
+	margin: 10px 0;
+	padding: 5px;
+	border-radius: 5px;
+	width: 100%;
+}
+
+.lty-lottery-tickets-search-wrapper label,
+.lty-instant-winners-tickets-search-wrapper label {
+	width: 300px;
+	display: inline-block;
+	margin-left: 10px;
+}
+
+.lty-lottery-tickets-search-wrapper select,
+.lty-instant-winners-tickets-search-wrapper select {
+	width: 350px;
+}
+
+.lty-lottery-tickets-search-columns-field .select2-container,
+.lty-instant-winners-tickets-search-columns-field .select2-container {
+	width: 350px !important
+}
+
+.lty-lottery-tickets-search-field input[type='search'],
+.lty-instant-winners-tickets-search-field input[type='search'] {
+	width: 200px;
+	margin-right: 5px;
+}
+
+/* Lottery tickets search end */
+
+table.lty-lottery-winners {
+	width: 100%;
+	background: #fff;
+	border-collapse: collapse;
+}
+
+table.lty-lottery-winners thead {
+	background: #ddd;
+	padding: 10px;
+}
+
+table.lty-lottery-winners thead th {
+	padding: 10px;
+}
+
+table.lty-lottery-winners tbody td {
+	padding: 10px;
+	text-align: center;
+}
+
+table.lty-lottery-winners tbody tr:nth-child(even) {
+	background: #fefefe;
+}
+
+.lty-backend-table {
+	width: 100%;
+	border-collapse: collapse;
+}
+
+.lty-backend-table thead th {
+	padding: 15px;
+	text-align: center;
+	background: #f1f1f1;
+}
+
+.lty-backend-table tbody td {
+	padding: 15px 5px;
+	text-align: center;
+}
+
+.lty-backend-table tbody tr:nth-child(even) {
+	background: #f8f8f8;
+}
+
+.lty-backend-table tbody td input[type='text'] {
+	width: 95%;
+	margin-left: 15px;
+}
+
+.lty-backend-table tfoot td {
+	padding: 15px 5px;
+	text-align: right;
+}
+
+#lty_lottery_tab .lty-lottery-extend-button-field,
+#lty_lottery_tab .lty-lottery-relist-button-field {
+	display: inline-block;
+}
+
+#lty_lottery_tab .lty-lottery-relist-button-field {
+	padding-left: 0 !important;
+}
+
+table.lotteries a.lty_lottery_button {
+	white-space: nowrap;
+}
+
+.lty-answer-label-global {
+	width: auto !important;
+}
+
+.lty-table-cell .lty-predefined-buttons-configuration-info {
+	display: table;
+}
+
+.lty-table-cell .lty-predefined-buttons-configuration-info .lty-table-row {
+	display: table-row;
+}
+
+.lty-table-cell .lty-predefined-buttons-configuration-info .lty-table-row .lty-table-head {
+	display: table-cell;
+	font-weight: bold;
+	width: 10%;
+}
+
+.lty-table-cell .lty-predefined-buttons-configuration-info .lty-table-row .lty-table-data {
+	display: table-cell;
+	font-weight: normal;
+}
+
+.lty-orders-without-tickets-popup {
+	border: 1px solid #c3c4c7 !important;
+}
+
+.lty-orders-without-tickets-popup thead tr th,
+.lty-orders-without-tickets-popup tbody tr td {
+	padding: 8px 10px !important;
+	text-align: center !important;
+}
+
+.lty-orders-without-tickets-popup-action {
+	margin-right: 10px !important;
+}
+
+.lty-orders-without-tickets-message {
+	margin-top: 10px;
+}
+
+.lty-no-ticket-numbers-column,
+.lty-error {
+	color: #FF0000 !important;
+}
+
+.lty-lottery-question-answer-container {
+	float: left;
+	width: 100%;
+	margin-top: 10px;
+}
+
+.lty-lottery-question-answer-container h3 {
+	border-bottom: 1px solid #ccc;
+	padding-bottom: 10px;
+}
+
+.lty-lottery-question-answer-container .lty-lottery-question-label {
+	font-size: 14px;
+	color: #000;
+	margin: 0 !important;
+}
+
+.lty-lottery-question-answer-container ul.lty-lottery-answers-wrapper {
+	float: left;
+	width: 100%;
+}
+
+.lty-lottery-question-answer-container ul.lty-lottery-answers-wrapper li {
+	display: inline-block;
+	border: 1px solid #ccc;
+	width: 100%;
+	padding: 10px;
+	margin: 10px 0;
+	box-sizing: border-box;
+}
+
+.lty-lottery-question-answer-container ul.lty-lottery-answers-wrapper li.lty-selected-ticket {
+	background: #0f0;
+}
+
+.instant_winners .lty-instant-winner-prize-available {
+	color: #f00;
+}
+
+.instant_winners .lty-instant-winner-name {
+	color: #009933;
+}
+
+.lty-lottery-screen-options legend {
+	font-weight: bold;
+}
+
+.lty-lottery-screen-options label {
+	width: 250px;
+}
+
+/* Lottery status */
+.lty_lottery_not_started_status span,
+.lty_lottery_started_status span,
+.lty_lottery_failed_status span,
+.lty_lottery_finished_status span,
+.lty_lottery_closed_status span {
+	display: inline-block;
+	padding: 5px;
+	border-radius: 5px;
+}
+
+.lty_lottery_not_started_status span {
+	background: #f8dda7;
+	color: #94660c;
+}
+
+.lty_lottery_finished_status span {
+	color: #2e4453;
+	background: #c8d7e1;
+}
+
+.lty_lottery_failed_status span {
+	color: #761919;
+	background: #eba3a3;
+}
+
+.lty_lottery_started_status span {
+	color: #5b841b;
+	background: #c6e1c6;
+}
+
+.lty_lottery_closed_status span {
+	color: #94660c;
+	background: #f8dda7;
+}
+
+#lty_lottery_view_log .inside {
+	padding: 0 !important;
+}
+
+#lty_lottery_view_log p {
+	padding: 5px 10px;
+}
+
+.lty-winner-selection-link {
+	width: 100%;
+	padding: 0 0 10px 0;
+}
+
+.lty-winner-selection-link p {
+	padding: 0 5px;
+	border-top: solid 1px #dcdcde;
+	clear: both;
+}
+
+.lty-view-lotteries {
+	background: #f6f7f7;
+	width: 100%;
+	padding: 0 0 10px 0;
+}
+
+.lty-view-lotteries a {
+	margin: 10px;
+}
+
+.lty-view-lotteries p {
+	border-top: 1px solid #dcdcde;
+}
+
+/* Lottery status end */
+
+.lty_wrapper_cover .forminp-textarea p {
+	margin-bottom: 10px !important;
+}
+
+.lty-hide {
+	display: none;
+}
+
+/* Instant winners rules start */
+.lty-instant-winners-rules-wrapper {
+	width: 98%;
+	float: left;
+	margin-left: 1%;
+}
+
+.lty-lottery-ticket-number,
+.lty-lottery-ticket-prize,
+.lty-instant-winner-image,
+.lty-ticket-prize-type {
+	width: 100%;
+	float: left;
+}
+
+.lty-lottery-ticket-number p label,
+.lty-lottery-ticket-prize p label,
+.lty-instant-winner-image p label,
+.lty-ticket-prize-type p label {
+	width: 100px;
+	display: block;
+}
+
+.lty-instant-winners-rule-content p,
+.lty-instant-winners-rule-content .lty-ticket-prize-type {
+	padding: 0 !important;
+	margin: 10px 20px;
+}
+
+.lty-instant-winners-rule-content .lty-ticket-prize-type p {
+	margin: 10px 0px !important;
+}
+
+.lty-instant-winners-rule-content p label {
+	width: 100px;
+	display: block; 
+	float: left;
+}
+
+.lty-instant-winners-rule-content .lty-instant-winner-image-preview {
+	display: block;
+}
+
+.lty-instant-winners-rule-content .lty-instant-winner-image-preview img,
+.lty-instant-winner-prize-group-popup-content-wrapper .lty-instant-winner-prize-group-image-preview img {
+	height: 45px;
+	width: 45px;
+}
+
+.lty-instant-winners-rule-content .lty-select-image {
+	margin-left: 120px;
+}
+
+.lty-instant-winners-rule-content select {
+	width: 54% !important;
+}
+
+.lty-lottery-instant-winners-rule-modal-wrapper {
+	padding: 0 !important;
+}
+
+.lty-lottery-instant-winners-rule-modal-wrapper .lty-instant-winners-rule-header {
+	border-bottom: 1px solid #ddd;
+}
+
+.lty-lottery-instant-winners-rule-modal-wrapper h3,
+.lty-lottery-instant-winners-rule-modal-wrapper .lty-instant-winners-rule-error {
+	margin-left: 10px;
+	padding: 10px;
+}
+
+.lty-lottery-instant-winners-rule-modal-wrapper .lty-instant-winners-rule-content {
+	display: inline-block;
+}
+
+.lty-lottery-instant-winners-rule-modal-wrapper .lty-lottery-ticket-number,
+.lty-lottery-instant-winners-rule-modal-wrapper .lty-lottery-ticket-prize,
+.lty-lottery-instant-winners-rule-modal-wrapper .lty-ticket-prize-type,
+.lty-lottery-instant-winners-rule-modal-wrapper .lty-instant-winner-image {
+	width: 100%;
+	padding: 10px 20px;
+	display: block;
+	box-sizing: border-box;
+}
+
+.lty-lottery-instant-winners-rule-modal-wrapper .lty-instant-winner-image .dashicons-upload {
+	margin-top: 52px !important;
+	margin-left: -45px !important;
+}
+
+.lty-lottery-instant-winners-rule-modal-wrapper .lty-instant-winner-image .dashicons-trash {
+	margin-top: 52px !important;
+	margin-left: -1px !important;
+}
+
+.lty-lottery-instant-winners-rule-modal-wrapper textarea,
+.lty-lottery-instant-winners-rule-modal-wrapper input[type='text'], 
+.lty-lottery-instant-winners-rule-modal-wrapper select,
+.lty-lottery-instant-winners-rule-modal-wrapper .lty-ticket-prize-type .select2-container,
+.lty-ticket-prize-type select,
+.lty-ticket-prize-type input[type='number'] {
+	width: 50% !important;
+}
+
+.lty-lottery-instant-winners-rule-modal-wrapper textarea {
+	height: 60px;
+}
+
+.lty-lottery-instant-winners-rule-modal-wrapper label {
+	margin-right: 20px;
+}
+
+.lty-lottery-instant-winners-rule-modal-wrapper .lty-instant-winner-prize-group-empty-message {
+	display: block;
+	margin-top: 15px;
+}
+
+.lty-lottery-instant-winners-rule-modal-wrapper .lty-instant-winners-rule-footer {
+	border-top: 1px solid #ddd;
+	padding: 10px;
+	text-align: right;
+}
+
+.lty-lottery-instant-winners-rules-pagination-wrapper {
+	float: right;
+	text-align: center;
+	display: flex;
+	margin: 10px 0;
+	align-items: center;
+}
+
+.lty-instant-winners-rules-contents tfoot td {
+	text-align: right;
+}
+
+.lty-lottery-instant-winners-rules-pagination-wrapper span,
+.lty-lottery-instant-winners-rules-pagination-wrapper input {
+	margin: 0 5px 0 0 !important;
+}
+
+.lty-lottery-instant-winners-rules-pagination-wrapper input {
+	height: 30px !important;
+}
+
+.lty-lottery-instant-winners-rules-pagination-wrapper .lty-current-page {
+	padding: 2px !important;
+	width: 50px !important;
+}
+
+.lty-instant-winners-rules-actions-wrapper {
+	width: 100%;
+	float: left;
+}
+
+.lty-instant-winners-rules-bulk-actions-wrapper {
+	float: left;
+	margin: 10px 0;
+}
+
+.lty-instant-winners-rules-contents th input {
+	margin: 0 !important;
+}
+
+.lty-instant-winners-rules-contents .lty-remove-instant-winner-rule:hover,
+.lty-instant-winner-prize-groups-contents .lty-remove-instant-winner-prize-group:hover {
+	color: #f00;
+	cursor: pointer;
+}
+
+.lty-instant-winners-rules-contents .lty-instant-winner-image-preview img,
+.lty-instant-winner-prize-groups-contents .lty-instant-winner-prize-group-image-preview img {
+	height: 45px;
+	width: 45px;
+}
+
+.lty-instant-winners-rules-contents input.lty-instant-winner-rule {
+	width: 130px !important;
+}
+
+.lty-instant-winners-rules-contents input.lty-ticket-number {
+	width: 90px !important;
+}
+
+.lty-instant-winners-rules-contents select,
+.lty-instant-winners-rules-contents .select2-container {
+	width: 130px !important
+}
+
+.lty-instant-winners-rules-contents .lty-instant-winner-coupon-generation-type {
+	width: 75% !important
+}
+
+.lty-instant-winners-rule-content .lty-instant-winner-coupon-generation-type,
+.lty-instant-winners-rule-content .lty-instant-winner-coupon-discount-type,
+.lty-instant-winners-rule-content .lty-instant-winner-prize-amount,
+.lty-instant-winners-rule-content .select2-container {
+	margin-left: 120px !important;
+}
+
+.lty-instant-winner-prize-amount,
+.lty-instant-winners-rule-content .select2-container {
+	width: 54% !important;
+}
+
+.lty-instant-winners-rules-contents textarea {
+	width: 110px;
+	height: 50px;
+}
+
+.lty-instant-winners-rules-contents p {
+	margin: 0 0 5px 0 !important;
+	padding: 0 0 3px 0 !important;
+}
+/* Instant winners rules end */
+
+/* Import & Export */
+
+.lty-import-steps-wrapper {
+	width: 100%;
+	padding: 1em 1.5em;
+	counter-reset: element;
+	box-sizing: border-box;
+	margin: 0 0 10px 0;
+	float: left;
+}
+
+.lty-import-steps-wrapper li {
+	width: 33%;
+	float: left;
+	padding: 0 0 1.8em;
+	margin: 0;
+	text-align: center;
+	position: relative;
+	border-bottom: 4px solid #ccc;
+	border-bottom-color: rgb(204, 204, 204);
+	line-height: 1.4em;
+	list-style: none outside;
+}
+
+.lty-import-steps-wrapper li:before {
+	counter-increment: element;
+	content: counter(element);
+	border: 4px solid #ccc;
+	border-radius: 100%;
+	width: 20px;
+	height: 20px;
+	position: absolute;
+	bottom: 0;
+	left: 47%;
+	margin-left: -6px;
+	margin-bottom: -8px;
+	background: #fff;
+	top: 30px;
+}
+
+.lty-import-steps-wrapper li.lty-active,
+.lty-import-steps-wrapper li.lty-done {
+	border-color: #007cba;
+	color: #007cba;
+}
+
+.lty-import-steps-wrapper li.lty-active:before {
+	border: 4px solid #007cba;
+}
+
+.lty-import-steps-wrapper li.lty-done:before {
+	content: "\f15e";
+	font-family: dashicons;
+	border: 4px solid #007cba;
+	background: #007cba;
+	font-size: 20px;
+	color: #fff;
+}
+
+.lty-import-content-wrapper,
+.lty-export-content-wrapper,
+.lty-import-errors,
+.lty-export-errors{
+	width: 100%;
+	padding: 1em 1.5em;
+	box-sizing: border-box;
+	float: left;
+}
+
+.lty-import-errors,
+.lty-export-errors{
+	color: #f00;
+}
+
+.lty-import-upload-table,
+.lty-export-form-table{
+	width: 100%;
+	float: left;
+}
+
+.lty-export-form-table tr,
+.lty-import-upload-table tr {
+	vertical-align: top;
+}
+
+p.lty-export-field-description {
+	font-size: 12px;
+}
+
+.lty-export-form-wrapper #lty_export_form {
+	max-height: 400px;
+	overflow-y: scroll;
+}
+
+.lty-export-form-wrapper .lty-export-advanced-options,
+.lty-import-form-wrapper .lty-import-advanced-options {
+	float: left;
+}
+
+.lty-export-progress-bar-details .lty-export-progress-bar-left {
+	float: left;
+}
+
+.lty-export-progress-bar-details .lty-export-progress-bar-right{
+	float: right;
+}
+
+.lty-exporter-progress {
+	width: 100%;
+}
+
+.lty-import-upload-table th,
+.lty-import-upload-table td,
+.lty-export-form-table th,
+.lty-export-form-table td{
+	padding: 0 20px 24px 0;
+	font-weight: 400;
+	font-size: 14px;
+	text-align: left;
+}
+
+.lty-export-form-table input[type='text'],
+.lty-export-form-table input[type='number'],
+.wc-backbone-modal .lty-export-form-table .select2-container {
+	width: 80% !important;
+}
+
+.wc-backbone-modal-footer {
+	float: left;
+	width: 100%;
+}
+
+.lty-lottery-configuration {
+	margin-left: 2%;
+	border-left: 1px solid #ccc;
+}
+
+#lty_lottery_tab textarea._lty_winner_product_setting_fields {
+	width: 50%;
+}
+
+/* Import */
+.lty-import-modal-wrapper .wc-backbone-modal-main,
+.lty-instant-winner-prize-group-popup-wrapper .wc-backbone-modal-main {
+	overflow-y: scroll;
+	max-height: 500px;
+}
+
+.lty-import-steps-wrapper li.lty-active,
+.lty-import-steps-wrapper li.lty-done {
+	border-color: #007cba;
+}
+
+.lty-import-steps-wrapper li.lty-done {
+	color: #007cba;
+
+}
+
+.lty-import-content-wrapper form,
+.lty-export-content-wrapper form{
+	width: 100%;
+	padding: 1em 1.5em;
+	box-sizing: border-box;
+	float: left;
+}
+
+.lty-import-errors,
+.lty-export-errors{
+	width: 100%;
+	padding: 0 1.5em;
+	box-sizing: border-box;
+	float: left;
+}
+
+.lty-importer-progress, 
+.lty-exporter-progress{
+	width: 100%;
+	height: 40px;
+	border: 1px solid #ccc;
+	background: #f1f1f1;
+	border-radius: 5px;
+}
+
+progress.lty-importer-progress::-moz-progress-bar,
+progress.lty-exporter-progress::-moz-progress-bar{
+	background: #15bec4;
+}
+
+progress.lty-importer-progress::-webkit-progress-bar,
+progress.lty-exporter-progress::-webkit-progress-bar{
+	background: #15bec4;
+}
+
+.lty-import-progress-form-wrapper,
+.lty-export-progress-form-wrapper{
+	margin-bottom: 15px;
+}
+
+.lty-import-progress-form-wrapper header h2,
+.lty-export-progress-form-wrapper header h2{
+	margin-top: 0 !important;
+	text-align: center;
+}
+
+.lty-import-content-wrapper .wc-backbone-modal-footer,
+.lty-export-content-wrapper .wc-backbone-modal-footer{
+	float: left;
+	width: 100%;
+	height: auto;
+	background: #fcfcfc;
+	padding: 1em 1.5em;
+	border-top: 1px solid #ddd;
+	text-align: right;
+}
+
+.lty-import-content-wrapper .woocommerce-importer__importing,
+.lty-export-content-wrapper .woocommerce-importer__importing{
+	float: left;
+	width: 100%;
+	margin: 20px 0;
+}
+
+.lty-import-content-wrapper .woocommerce-importer__importing header,
+.lty-exporter-content-wrapper .woocommerce-importer__importing header{
+	text-align: center;
+	margin: 15px 0;
+}
+
+.lty-import-content-wrapper .woocommerce-importer__importing header p,
+.lty-export-content-wrapper .woocommerce-importer__importing header p{
+	color: #000;
+	font-size: 24px;
+	display: block;
+	margin-top: 15px;
+	padding: 0;
+}
+
+.lty-import-content-wrapper footer,
+.lty-export-content-wrapper footer{
+	text-align: right;
+}
+
+.lty-export-content-wrapper .wc-backbone-modal-footer{
+	position:initial !important;
+}
+
+.lty-export-content-wrapper .lty-export-content-wrapper {
+	margin: 0 !important;
+}
+
+.lty-export-content-wrapper header {
+	text-align: center;
+	display: block;
+	margin: 35px 0;
+}
+
+.lty-import-content-wrapper .woocommerce-importer__importing header:before ,
+.lty-export-content-wrapper .woocommerce-importer__importing header:before{
+	content: "\f15e";
+	font-family: dashicons;
+	background: #15bec4;
+	border-radius: 100%;
+	color: #fff;
+	font-size: 70px;
+	padding: 10px;
+}
+
+.lty-import-error-logs-wrapper {
+	float: left;
+	width: 100%;
+	padding: 0;
+	box-sizing: border-box;
+	max-height: 150px;
+	margin-bottom: 30px;
+}
+
+.lty-import-error-logs-wrapper table {
+	width: 100%;
+	table-layout: fixed;
+	border: 1px solid #ccc;
+	border-collapse: collapse;
+
+}
+
+.lty-import-error-logs-wrapper table th,
+.lty-import-error-logs-wrapper table td {
+	padding: 15px;
+	font-weight: 400;
+	font-size: 14px;
+	text-align: left;
+	border-right: 1px solid #ccc;
+}
+
+.lty-import-error-logs-wrapper table th {
+	font-weight: bold;
+	background: #f1f1f1;
+}
+
+.lty-import-done-status-wrapper table th,
+.lty-import-done-status-wrapper table td {
+	font-weight: 400;
+	font-size: 14px;
+	text-align: left;
+	text-align: left;
+	padding: 0 0 10px 0;
+}
+
+.lty-import-done-status-wrapper {
+	float: left;
+	width: 100%;
+	padding-bottom: 10px;
+	border-bottom: 1px solid #ccc;
+}
+
+.lty-import-done-status-wrapper table {
+	width: 50%;
+}
+
+.lty-import-instant-winner-rule-btn,
+.lty-export-instant-winner-rules {
+	float: right;
+}
+
+.lty-export-instant-winner-rules {
+	margin-right: 10px !important;
+}
+
+#lty_predefined_buttons_tab h4 {
+	margin-left: 10px;
+}
+
+/* import */
+.lty-predefined-buttons-table .lty-error {
+	float: left;
+	text-align: left;
+}
+
+.lty-predefined-buttons-table th:nth-child(1) {
+	width: 10%
+}
+
+.lty-predefined-buttons-table th:nth-child(2),
+.lty-predefined-buttons-table th:nth-child(3),
+.lty-predefined-buttons-table th:nth-child(4) {
+	width: 30%;
+}
+
+.lty-predefined-buttons-table td input[type='number'],
+.lty-predefined-buttons-table td input[type='text'] {
+	width: 75%
+}
+
+#woocommerce-product-data ul.wc-tabs li.lty_lottery_options a::before,
+#woocommerce-product-data ul.wc-tabs li.lty_question_options a::before,
+#woocommerce-product-data ul.wc-tabs li.lty_predefined_buttons_options a::before,
+#woocommerce-product-data ul.wc-tabs li.lty_lottery_relist_options a::before,
+#woocommerce-product-data ul.wc-tabs li.lty_instant_winner_options a::before,
+#woocommerce-product-data ul.wc-tabs li.lty_instant_winner_prize_groups_options a::before {
+	content: '\f524';
+}
+
+.lty-lottery-head-button,
+.lty-lottery-ticket-heading,
+.lty-instant-winners-prizes-heading {
+	margin-bottom: 10px;
+}
+
+.lty-lottery-filters-wrapper {
+	background: #fff;
+	margin-top: 10px;
+	padding: 10px;
+	float: left;
+	width: 98%;
+	margin-bottom: 15px;
+}
+
+.lty-lottery-filters-wrapper h4,
+.lty-lottery-filters-wrapper p {
+	margin: 10px;
+}
+
+.lty-lottery-filters-wrapper .lty-lottery-search-field,
+.lty-search-fields-wrapper .lty-lottery-tickets-search-field,
+.lty-search-fields-wrapper .lty-instant-winners-tickets-search-field {
+	float: initial;
+}
+
+.lty-lottery-filters-wrapper label,
+.lty-lottery-filters-wrapper #lty-lottery-search-input {
+	display: inline-block;
+	width: 300px;
+}
+
+.lty-lottery-filters-wrapper select {
+	width: 300px;
+}
+
+.lty-lottery-filters-wrapper .lty-lottery-filter-categories {
+	float: left;
+}
+
+.lty_status_label span {
+	display: inline-block;
+	padding: 5px;
+	border-radius: 5px;
+}
+
+.lty_ticket_winner_status span {
+	color: #5b841b;
+	background: #c6e1c6;
+}
+
+.lty_ticket_pending_status span {
+	color: #777;
+	background: #e5e5e5;
+}
+
+.lty_ticket_buyer_status span {
+	color: #2e4453;
+	background: #c8d7e1;
+}
+
+.lty_available_status span {
+	color: #5b841b;
+	background: #c6e1c6;
+}
+
+.lty_pending_status span {
+	color: #777;
+	background: #e5e5e5;
+}
+
+.lty_won_status span {
+	color: #fff;
+	background: #267b26;
+}
+
+.lty-search-fields-wrapper h4 {
+	margin-left: 10px;
+}
+
+.lty-lottery-tickets-search-wrapper p label,
+.lty-instant-winners-tickets-search-wrapper p label {
+	width: 200px !important;
+}
+
+#lty-view-winner-log {
+	margin: 15px 0;
+}
+
+.lty_tab_inner_content .forminp-textarea {
+	display: grid;
+}
+
+.lty_tab_inner_content .forminp-textarea p {
+	order: 99;
+	margin-top: 3px !important;
+}
+
+/* Shortcode tab */
+.lty-shortcode-tabs-wrapper {
+	overflow: hidden;
+	border: 1px solid #ccc;
+	background-color: #f1f1f1;
+}
+
+.lty-shortcode-tab {
+	background-color: inherit;
+	float: left;
+	border: none;
+	outline: none;
+	cursor: pointer;
+	padding: 14px 16px;
+	transition: 0.3s;
+	font-size: 14px;
+}
+
+.lty-shortcode-tab:hover {
+	background-color: #ddd;
+}
+
+.lty-shortcode-tab.lty-active {
+	background-color: #ccc;
+}
+
+.lty-shortcode-tab-content {
+	display: none;
+	padding: 6px 12px;
+	border: 1px solid #ccc;
+	border-top: none;
+}
+
+.lty-shortcode-details {
+	padding-bottom: 3px;
+}
+
+.lty-shortcode-examples-wrapper h3 {
+	border-bottom: 1px dashed #333;
+	padding-bottom: 15px;
+}
+
+.lty-shortcode-examples-wrapper p.lty-shortcode-title b:before {
+	content: "\f154";
+	font-size: 12px;
+	color: #000;
+	font-family: dashicons;
+	display: inline-block;
+	line-height: 1;
+	font-weight: 400;
+	font-style: normal;
+	margin-right: 5px
+}
+
+.lty-shortcode-parameter-table {
+	width: 50%;
+}
+
+/* Shortcode tab end */
+
+.lty-instant-winner-rule {
+	padding: 0px;
+	margin-right: 3px;
+	border-radius: 3px;
+	
+	font-size: 14px;
+	line-height: 20px;
+}
+
+.lty-instant-winner-image-preview {
+	padding: 5px 0px 5px 0px;
+}
+
+.lty-select-image {
+	border: 1px solid #c8d7e1;
+	background: #c8d7e1;
+	color: #2e4453;
+	cursor: pointer;
+}
+
+.lty-remove-image {
+	border: 1px solid #eba3a3;
+	background: #eba3a3;
+	color: #761919;
+	cursor: pointer;
+}
+
+.lty-error-notice {
+	clear: both;
+	border-left-color: #d63638 !important;
+	border: 1px solid #c3c4c7;
+	border-left-width: 4px !important;
+	padding: 5px 10px;
+	width: 80% !important;
+	display: inline-block !important;
+	margin: 5px 0 10px 0;
+}
+
+.lty-instant-winner-prize-group-popup-content-wrapper .form-field {
+	width: 100%;
+}
+
+.lty-instant-winner-prize-group-popup-content-wrapper .form-field label {
+	width: 250px;
+}
+
+.lty-instant-winner-prize-group-popup-content-wrapper .form-field input,
+.lty-instant-winner-prize-group-popup-content-wrapper .form-field select {
+	width: 300px;
+}
+
+.lty-import-instant-winner-prize-groups-btn,
+.lty-export-instant-winner-prize-groups-btn {
+	float: right;
+	margin-right: 10px !important;
+}
+
+.lty-instant-winner-prize-groups-actions-wrapper {
+	float: left;
+	width: 100%;
+}
+
+.lty-instant-winner-prize-groups-bulk-actions-wrapper {
+	float: left;
+	margin: 10px 0 !important;
+}
+
+.lty-instant-winner-prize-groups-pagination-wrapper {
+	float: right;
+	text-align: center;
+	display: flex;
+	margin: 10px 0;
+	align-items: center;
+}
+
+.lty-instant-winner-prize-groups-pagination-wrapper span, 
+.lty-instant-winner-prize-groups-pagination-wrapper input{
+	margin: 0 5px 0 0 !important
+}
+
+.lty-instant-winner-prize-groups-pagination-wrapper .lty-current-page {
+	padding: 2px !important;
+	width: 50px !important;
+}
+
+.lty-instant-winner-prize-group-popup-content-wrapper {
+	display: inline-block;
+}
+
+.lty-instant-winner-prize-group-popup-content-wrapper .form-field {
+	padding: 0 !important;
+	margin: 10px 20px;
+	width: 100%;
+	float: left;
+}
+
+.lty-instant-winner-prize-group-popup-content-wrapper .form-field label {
+	width: 100px;
+	display: block;
+	float: left;
+}
+
+.lty-instant-winner-prize-group-popup-content-wrapper .lty-instant-winner-prize-group-title,
+.lty-instant-winner-prize-group-popup-content-wrapper .lty-instant-winner-prize-group-prize-type,
+.lty-instant-winner-prize-group-popup-content-wrapper .lty-instant-winner-prize-group-message,
+.lty-instant-winner-prize-group-popup-content-wrapper .lty-instant-winner-prize-group-coupon-generation-type,
+.wc-backbone-modal .lty-instant-winner-prize-group-popup-content-wrapper .select2-container,
+.lty-instant-winner-prize-group-popup-content-wrapper .lty-instant-winner-prize-group-message,
+.lty-instant-winner-prize-group-popup-content-wrapper .lty-instant-winner-prize-group-coupon-discount-type,
+.lty-instant-winner-prize-group-popup-content-wrapper .lty-instant-winner-prize-group-amount,
+.lty-instant-winner-prize-group-popup-content-wrapper p input[type='number'] {
+	width: 50% !important;
+}
+
+.lty-instant-winner-prize-group-popup-content-wrapper p .select2-container {
+	margin-left: 100px
+}
+
+.lty-instant-winner-prize-group-image-preview {
+	display: block;
+	padding: 0px !important;
+}
+
+.lty-instant-winner-prize-group-popup-content-wrapper .lty-select-image {
+	margin-left: 100px;
+}
+
+.lty-instant-winner-prize-group {
+	padding: 0px;
+	margin-right: 3px;
+	border-radius: 3px;
+	font-size: 14px;
+	line-height: 20px;	
+}
+
+tr.lty-instant-winner-prize-group-wrapper .lty-instant-winner-prize-group-title {
+	width: 100px !important;
+}
+
+.lty-instant-winner-prize-groups-contents th input {
+	margin: 0 !important;
+}
+
+.lty-instant-winner-prize-group-wrapper td select,
+.lty-instant-winner-prize-group-wrapper td .select2-container,
+.lty-instant-winner-prize-group-wrapper td input[type='number']{
+	width: 130px !important;
+}
+
+.lty-instant-winner-prize-group-wrapper td textarea{
+	width: 110px !important;
+}
+
+.lty-instant-winner-prize-group-wrapper td input[type="text"]{
+	width: 130px;
+}
+
+.lty-instant-winner-prize-group-wrapper p {
+	padding: 0px !important;
+}
+
+.lty-instant-winners-rule-content {
+	width: 97% !important;
+	max-height: 350px;
+	overflow-y: scroll;
+	overflow-x: clip;
+}
+
+.lty-manual-lottery-notification-wrapper .lty-notice {
+	margin-bottom: 15px;
+	padding: 5px;
+}

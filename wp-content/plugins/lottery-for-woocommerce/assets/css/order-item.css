@@ -1,0 +1,150 @@
+
+/* Ticket booking design */
+.lty-lottery-ticket-panel .lty-lottery-ticket-tab-wrapper {
+	width: 100%;
+	display: block;
+	float: left;
+	margin-bottom: 15px;
+}
+
+.lty-lottery-ticket-panel .lty-lottery-ticket-tab-wrapper .lty-lottery-ticket-tab {  
+	float: left;
+	border-radius: 0;
+	padding: 0.6180469716em 1.41575em;
+	margin: 0;
+	text-decoration: none;
+	font-weight: 600;
+	text-shadow: none;
+	cursor: pointer;
+	box-shadow: none;
+}
+.lty-lottery-ticket-panel .lty-ticket-number-wrapper {
+	clear: both;
+	margin:0;
+	padding:0;
+}
+
+.lty-lottery-ticket-panel .lty-ticket-number-wrapper {
+	display:block;
+	margin:0;
+	padding:0;
+	list-style: none;
+}
+
+.lty-lottery-ticket-panel .lty-ticket-number-wrapper ul {
+	margin:0;
+	padding:0;
+}
+
+.lty-lottery-ticket-panel .lty-ticket-number-wrapper ul li {
+	display:block;
+	list-style: none;
+	width:80px;
+	height: 50px;
+	float:left;
+	padding: 1em;
+	margin-right:-1px;
+	margin-bottom:-1px;
+	margin-left:0;
+	margin-top:0;
+	text-align: center;
+	cursor:pointer;
+	font-size: 14px;
+	white-space: nowrap;
+	font-weight:600;
+}
+
+.lty-lottery-ticket-panel .lty-ticket-number-wrapper ul li:hover {
+	font-weight: 600;
+}
+
+
+.lty-lottery-ticket-panel .lty-ticket-number-wrapper ul li.lty-booked-ticket {
+	cursor: not-allowed;
+	opacity: 0.5;
+}
+
+.lty-lottery-ticket-container {
+	display:inline-block;
+	float:left;
+	width:100%;
+	margin:10px 0;
+}
+
+.lty-lottery-ticket-panel .lty-ticket-number-wrapper ul li {
+	border: 1px solid #e0e0e0;
+	color: #444444;
+}
+
+.lty-lottery-ticket-panel .lty-ticket-number-wrapper ul li.lty-selected-ticket {
+	background: #00cc00;
+	color:#ffffff;
+}
+.lty-lottery-ticket-panel .lty-ticket-number-wrapper ul li:hover {
+	background: #00cc00;
+	color: #ffffff;
+}
+
+.lty-lottery-ticket-panel .lty-ticket-number-wrapper ul li.lty-booked-ticket {
+	background:#ff1111;
+	color: #ffffff;                      
+}
+
+.lty-lottery-ticket-panel .lty-ticket-number-wrapper ul li.lty-reserved-ticket {
+	background:#00a1c9;
+	color: #ffffff;                      
+}
+
+.lty-lottery-ticket-panel .lty-lottery-ticket-tab-wrapper .lty-lottery-ticket-tab {
+	background: #eeeeee;
+	border: 1px solid #eeeeee;
+	color:#333333;
+
+}
+
+.lty-lottery-ticket-panel .lty-lottery-ticket-tab-wrapper .lty-active-tab {
+	background:#cccccc;
+	border: 1px solid #cccccc;
+	color: #333333;
+}
+
+.lty-lottery-ticket-panel .lty-lottery-ticket-tab-wrapper .lty-lottery-ticket-tab:hover {
+	background: #cccccc;
+	border: 1px solid #cccccc;
+	color: #333333;
+}
+
+.lty_ticket_generation_type {
+	font-weight: bold;
+}
+
+.lty-manual-order-lottery-ticket-container {
+	margin: 20px 0px;
+}
+
+.lty-manual-order-lottery-ticket-container label {
+	font-weight: bold;
+	width: 34%;
+	display: inline-block;
+}
+
+.lty-lottery-ticket-tab-wrapper label {
+	font-weight: bold;
+	width: 36%;
+	display: inline-block;
+}
+
+.lty-lottery-custom-ticket-field {
+	vertical-align: middle;
+	width: 300px;
+}
+
+.lty_ticket_generation_mode {
+	width: 300px;
+}
+
+.lty-manual-order-lottery-ticket-container #lty-remaining-ticket-count-message {
+	margin-left: 270px;
+}
+
+

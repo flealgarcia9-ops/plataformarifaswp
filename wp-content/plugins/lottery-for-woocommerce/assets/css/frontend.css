@@ -1,0 +1,1697 @@
+.lty-lottery-product-summary {
+	float: left;
+	width: 100%;
+}
+
+.lty-clear {
+	clear: both;
+}
+
+.lty-lottery-product-summary p {
+	display: block;
+	width: 100%;
+	margin-bottom: 15px;
+	padding: 0;
+}
+
+.lty-lottery-product-summary .lty-winner-message {
+	color: #358014;
+}
+
+.lty-lottery-product-summary .lty-lose-message {
+	color: #f00;
+}
+
+.jquery-modal {
+	z-index: 9999 !important;
+}
+
+.lty-lucky-dip-button {
+	margin-bottom: 15px !important;
+}
+
+.lty-regenerate-ticket-lucky-dip-popup-wrapper .lty-regenerate-lucky-dip-quantity-field {
+	display: inline-flex;
+}
+
+.lty-regenerate-ticket-lucky-dip-popup-wrapper .lty-regenerate-lucky-dip-quantity-field label,
+.lty-regenerate-ticket-lucky-dip-popup-wrapper .lty-regenerate-lucky-dip-quantity-field .quantity {
+	margin-right: 10px;
+}
+
+.lty-regenerate-ticket-lucky-dip-popup-wrapper .lty-lucky-dip-quantity {
+	width: 100px !important;
+}
+
+.lty-regenerate-ticket-lucky-dip-popup-wrapper .lty-regenerate-lucky-dip-tickets-field {
+	margin-top: 15px;
+}
+
+.lty-ticket-lucky-dip-popup-wrapper .lty-lucky-dip-tickets,
+.lty-regenerate-ticket-lucky-dip-popup-wrapper .lty-regenerate-lucky-dip-tickets {
+	height: 150px;
+	width: 100%;
+	overflow-y: scroll;
+	padding: 10px;
+	margin: 15px 0;
+	border: 1px solid #eee;
+}
+
+.lty-lottery-time-left-label-shop-page {
+	display: block;
+	width: 100%;
+	margin-bottom: 5px;
+	padding: 0;
+}
+
+.lty-lottery-form,
+.lty-lottery-date-ranges {
+	float: left;
+	width: 100%;
+}
+
+.lty-lottery-date-ranges {
+	margin-bottom: 10px;
+}
+
+.lty-lottery-date-ranges .lty-lottery-countdown-timer {
+	display: block;
+	clear: both;
+	width: 100%;
+	padding: 0;
+	margin-bottom: 15px;
+}
+
+.lty-lottery-countdown-timer .lty-lottery-timer {
+	float: left;
+	width: 25%;
+	margin: 0;
+	padding: 0;
+	text-align: center;
+}
+
+.lty-lottery-date-ranges .lty-lottery-start-time-label {
+	display: block;
+	float: left;
+	width: 100%;
+	margin-top: 10px;
+}
+
+.lty-lottery-timer #lty_lottery_days,
+.lty-lottery-timer #lty_lottery_hours,
+.lty-lottery-timer #lty_lottery_minutes,
+.lty-lottery-timer #lty_lottery_seconds {
+	font-size: 18px;
+	font-weight: 600;
+}
+
+.lty-lottery-timer .lty-lottery-timer-content {
+	display: block;
+}
+
+.lty-ticket-logs-filters {
+	text-align: right;
+}
+
+/* Product Badge design */
+
+.lty-badge {
+	position: absolute;
+	padding: 10px;
+	margin: 0 !important;
+	color: #fff;
+	font-size: 1em;
+	font-weight: 700;
+	text-align: center;
+	font-size: .857em;
+	line-height: 3.236;
+	z-index: 9;
+	left: 0;
+}
+
+.lty-badge img {
+	display: block;
+	width: 24px !important;
+	height: 24px !important;
+	margin: 0 !important;
+}
+
+/* Shop Page Timmer */
+
+.lty-shop-timer-wrapper {
+	width: 100%;
+	padding: 0.5em 0;
+	margin: 10px 0 20px 0;
+	overflow: hidden;
+}
+
+.lty-shop-timer-wrapper .lty-shop-timer-container {
+	clear: both;
+	width: 100%;
+	padding: 0px 2px;
+	text-align: center;
+}
+
+.lty-shop-timer-wrapper .lty-shop-timer-container .lty-shop-timer-section {
+	display: block;
+	position: relative;
+	width: 22.5%;
+	float: left;
+	font-size: 75%;
+	text-align: center;
+}
+
+.lty-shop-timer-section .lty-shop-timer-content {
+	display: block;
+}
+
+.lty-shop-timer-section:before {
+	display: block;
+	position: absolute;
+	right: 0;
+	top: 10px;
+	content: '';
+	width: 1px;
+	height: 15px;
+	background: #000;
+}
+
+.lty-shop-timer-section:last-child:before {
+	content: '';
+	width: 0;
+	height: 0;
+}
+
+.lty-watchlist-wrapper {
+	clear: both;
+	width: 100%;
+}
+
+.lty-frontend-table {
+	width: 100%;
+	margin: 0;
+	padding: 0;
+	border-collapse: collapse;
+}
+
+.lty-frontend-table thead {
+	background: #f7f7f7;
+}
+
+.lty-frontend-table thead th {
+	padding: 15px;
+	color: #333;
+	background: #f7f7f7;
+	border: none;
+	text-transform: capitalize;
+	font-size: 16px;
+	text-align: left;
+	vertical-align: middle;
+	word-break: break-all;
+}
+
+.lty-frontend-table tbody tr:nth-child(2n) {
+	background: #fafafa;
+}
+
+.lty-frontend-table tbody td {
+	padding: 15px;
+	color: #666;
+	background: none;
+	border: none;
+	font-size: 14px;
+	text-align: left;
+	vertical-align: middle;
+	word-break: break-all;
+}
+
+.lty-frontend-table tbody td img {
+	width: 50px;
+	height: auto;
+	margin: auto;
+}
+
+.lty-thankyou-page-instant-winners tbody td img {
+	width: 50px;
+	height: auto;
+	margin: auto;
+}
+
+.lty-frontend-table tbody td a {
+	color: #00f;
+	font-size: 14px;
+	text-decoration: none;
+}
+
+.lty-frontend-table tbody td a:hover {
+	text-decoration: underline;
+}
+
+.lty-frontend-table tbody td span {
+	font-size: 14px;
+}
+
+.lty-frontend-table tbody td .lty_status_label {
+	color: #f00;
+}
+
+.lty-frontend-table tbody td .lty-lottery-remove-watchlist {
+	margin-right: 10px;
+	margin-bottom: 10px;
+	padding: 0;
+	color: #fff;
+	background: none;
+	border-radius: 5px;
+	border: none;
+	box-shadow: none;
+	font-weight: 600;
+}
+
+.lty-frontend-table tbody td .lty-lottery-remove-watchlist span {
+	margin-right: 5px;
+	color: #f00;
+	font-size: 30px;
+}
+
+.lty-frontend-table tfoot {
+	border: none;
+	box-shadow: none;
+}
+
+.lty-frontend-table tfoot td {
+	padding-right: 0;
+	background: none;
+	border: none;
+}
+
+.lty-frontend-table tfoot nav,
+.lty-lottery-winners-by-date-footer nav,
+.lty-lottery-instant-winners-by-date-footer nav,
+.lty-order-instant-winners-wrapper tfoot nav {
+	float: right;
+	border: 0;
+	clear: none;
+	padding: 0;
+	margin-bottom: 0;
+}
+
+.lty-frontend-table tfoot nav ul,
+.lty-lottery-winners-by-date-footer nav ul,
+.lty-lottery-instant-winners-by-date-footer nav ul,
+.lty-order-instant-winners-wrapper tfoot nav ul {
+	margin: 0;
+	list-style: none;
+	border: none !important;
+}
+
+.lty-frontend-table tfoot nav ul li,
+.lty-lottery-winners-by-date-footer nav ul li,
+.lty-lottery-instant-winners-by-date-footer nav ul li,
+.lty-order-instant-winners-wrapper tfoot nav ul li {
+	display: inline-block;
+	margin-left: 3px;
+}
+
+.lty-frontend-table tfoot nav ul li span {
+	margin: 0;
+	padding: 0;
+}
+
+.lty-frontend-table tfoot nav ul li a,
+.lty-lottery-winners-by-date-footer nav ul li a,
+.lty-lottery-instant-winners-by-date-footer nav ul li a,
+.lty-order-instant-winners-wrapper tfoot nav ul li a {
+	display: inline-block;
+	padding: 10px;
+	margin: 0;
+	background: #fafafa;
+	border: none;
+	color: #43454b;
+	text-decoration: none;
+}
+
+.lty-frontend-table tfoot nav ul li .current,
+.lty-lottery-winners-by-date-footer nav ul li .current,
+.lty-lottery-instant-winners-by-date-footer nav ul li .current,
+.lty-order-instant-winners-wrapper tfoot nav ul li .current {
+	background: none;
+	border: none;
+}
+
+.lty-frontend-table tfoot nav ul li a.current,
+.lty-frontend-table tfoot nav ul li a:hover,
+.lty-lottery-winners-by-date-footer nav ul li a.current,
+.lty-lottery-winners-by-date-footer nav ul li a:hover,
+.lty-lottery-instant-winners-by-date-footer nav ul li a.current,
+.lty-lottery-instant-winners-by-date-footer nav ul li a:hover,
+.lty-order-instant-winners-wrapper tfoot nav ul li a.current,
+.lty-order-instant-winners-wrapper tfoot nav ul li a:hover {
+	background: #ccc;
+	border: none;
+	color: #000;
+}
+
+.lty-lottery-winners-by-date-footer,
+.lty-lottery-instant-winners-by-date-footer {
+	width: 100%;
+	float: left;
+	display: block;
+	padding: 10px;
+	margin: 0px;
+	box-sizing: border-box;
+}
+
+/* Lottery Dashboard Design */
+
+.lty-dashboard-wrapper {
+	margin-bottom: 20px;
+}
+
+.lty-dashboard-wrapper,
+.lty-dashboard-navigation,
+.lty-dashboard-contents {
+	float: left;
+	width: 100%;
+}
+
+.lty-dashboard-navigation nav {
+	float: left;
+	margin: 0;
+	padding: 0;
+	width: 100%;
+	border-top-right-radius: 10px;
+	border-top-left-radius: 10px;
+}
+
+.lty-dashboard-navigation nav a {
+	float: left;
+	margin: 0;
+	padding: 10px 15px;
+	background: none;
+	border: none;
+	text-decoration: none !important;
+}
+
+.lty-dashboard-navigation nav a span {
+	margin-right: 5px;
+}
+
+.lty-dashboard-navigation nav .lty-current {
+	background: none;
+	border-bottom: none;
+	font-weight: bold;
+}
+
+.lty-dashboard-contents h3 {
+	color: #000;
+	font-size: 18px;
+	font-weight: 600;
+	text-transform: capitalize;
+}
+
+.lty-dashboard-contents h3,
+.lty-dashboard-contents table {
+	width: 95%;
+	margin: 10px auto;
+}
+
+.lty-dashboard-contents {
+	background: #fff;
+	border-bottom-right-radius: 10px;
+	border-bottom-left-radius: 10px;
+}
+
+.lty-dashboard-contents .lty-no-product-notice {
+	display: block;
+	margin-top: 20px;
+	margin-bottom: 20px;
+	text-align: center;
+}
+
+/* Widget Search field */
+
+.lty-product-search label {
+	display: block;
+	margin-bottom: 10px;
+	font-size: 14px;
+	font-weight: 600;
+}
+
+.lty-product-search input[type='search'] {
+	width: 100%;
+	margin-bottom: 15px;
+}
+
+/* Lottery status */
+
+.lty_lottery_not_started_status span,
+.lty_lottery_started_status span,
+.lty_lottery_failed_status span,
+.lty_lottery_finished_status span,
+.lty_lottery_closed_status span {
+	display: block;
+	float: left;
+	padding: 10px;
+	border-radius: 5px;
+}
+
+.lty_lottery_not_started_status span {
+	background: #f8dda7;
+	color: #94660c;
+}
+
+.lty_lottery_finished_status span {
+	color: #2e4453;
+	background: #c8d7e1;
+}
+
+.lty_lottery_failed_status span {
+	color: #761919;
+	background: #eba3a3;
+}
+
+.lty_lottery_started_status span {
+	color: #5b841b;
+	background: #c6e1c6;
+}
+
+.lty_lottery_closed_status span {
+	color: #94660c;
+	background: #f8dda7;
+}
+
+.lty-lottery-product-summary .lty-lottery-status span {
+	border-radius: 5px;
+	float: none;
+	display: initial;
+}
+
+.lty-lottery-status-loop span {
+	border-radius: 5px;
+	float: none;
+	display: initial;
+	padding: 4px;
+}
+
+.lty_lottery_reload_lottery_page span {
+	margin-top: 7px;
+	margin-left: 5px;
+	cursor: pointer;
+	color: #000;
+}
+
+/* Ticket booking design */
+
+.lty-lottery-ticket-panel {
+	clear: both;
+	width: 100%;
+	display: block;
+	margin: 15px 0;
+}
+
+.lty-lottery-ticket-panel .lty-lottery-ticket-tab-wrapper {
+	width: 100%;
+	display: block;
+	float: left;
+	margin-bottom: 15px;
+}
+
+.lty-lottery-ticket-panel .lty-lottery-ticket-tab-wrapper .lty-lottery-ticket-tab {
+	float: left;
+	border-radius: 0;
+	padding: 0.6180469716em 1.41575em;
+	margin: 0;
+	text-decoration: none;
+	font-weight: 600;
+	text-shadow: none;
+	cursor: pointer;
+	box-shadow: none;
+}
+
+.lty-lottery-ticket-panel .lty-ticket-number-wrapper {
+	clear: both;
+	margin: 0;
+	padding: 0;
+	display: block;
+	list-style: none;
+}
+
+.lty-lottery-ticket-panel .lty-ticket-number-wrapper ul {
+	margin: 0;
+	padding: 0;
+}
+
+.lty-lottery-ticket-panel .lty-ticket-number-wrapper ul li {
+	display: block;
+	list-style: none;
+	width: 80px;
+	height: 50px;
+	float: left;
+	padding: 1em;
+	margin-right: -1px;
+	margin-bottom: -1px;
+	margin-left: 0;
+	margin-top: 0;
+	text-align: center;
+	cursor: pointer;
+	font-size: 14px;
+	white-space: nowrap;
+	font-weight: 600;
+}
+
+.lty-lottery-ticket-panel .lty-ticket-number-wrapper ul li:hover {
+	font-weight: 600;
+}
+
+
+.lty-lottery-ticket-panel .lty-ticket-number-wrapper ul li.lty-booked-ticket {
+	cursor: not-allowed;
+	opacity: 0.5;
+}
+
+.lty-lottery-ticket-panel .lty-ticket-number-wrapper ul li.lty-processing-ticket {
+	background: #c6e1c6;
+	color: #5b841b;
+}
+
+.lty-lottery-ticket-container {
+	display: inline-block;
+	float: left;
+	width: 100%;
+	margin: 10px 0;
+}
+
+.lty-all-tickets-sold {
+	color: #f00;
+}
+
+.lty-lottery-question-answer-container {
+	display: inline-block;
+	float: left;
+	width: 100%;
+	margin: 10px 0;
+}
+
+ul.lty-predefined-buttons {
+	display: block;
+	float: left;
+	width: 100%;
+	margin: 0;
+	padding: 0;
+	list-style: none;
+}
+
+ul.lty-predefined-buttons li {
+	display: block;
+	padding: 10px;
+	margin: 0 10px 30px 0;
+	cursor: pointer;
+	border-radius: 5px;
+	position: relative;
+}
+
+ul.lty-predefined-buttons li .lty-predefined-button-badge {
+	position:absolute;
+	right: -10px;
+	top: -15px;
+	padding: 2px 13px;
+	background: #1673d7;
+	color: #fff;
+	font-size: 12px;
+	font-weight: bold;	
+}
+
+ul.lty-predefined-buttons li .lty-predefined-button-badge::before { 
+	transition: border-top-color .2s;
+	position: absolute;
+	bottom: -10px;
+	right: 0;
+	content: "";
+	width: 0;
+	height: 0;
+	border-top: 10px solid transparent;
+	border-top-color: transparent;
+	border-bottom: 10px solid transparent;
+	border-left: 10px solid;
+	border-left-color: currentcolor;
+	border-left-color: currentcolor;
+	border-top-color: currentcolor;
+	border-top-color: currentcolor;
+	border-top-color: #1673d7;
+	border-left-color: #1673d7;
+}
+
+p.lty-lottery-question {
+	float: left;
+	width: 100%;
+	margin: 15px 0;
+}
+
+.lty-lottery-options-field-wrapper {
+	float: left;
+	width: 100%;
+	display: flex;
+}
+
+ul.lty-lottery-answers {
+	display: inline-block;
+	float: left;
+	width: 100%;
+	margin: 0;
+	padding: 0;
+	list-style: none;
+}
+
+ul.lty-lottery-answers li {
+	display: block;
+	width: 100%;
+	padding: 10px;
+	margin: 10px 0;
+	background: #fff;
+	cursor: pointer;
+}
+
+.lty-lottery-options-field-wrapper label {
+	margin-right: 5px;
+}
+
+.lty-lottery-options-field-wrapper select {
+	width: auto;
+	min-width: 150px;
+	border: 1px solid #ccc;
+	height: 40px;
+	border-radius: 5px;
+	padding: 5px;
+}
+
+
+/* Single product page progress bar  */
+
+.lty-lottery-progress-bar,
+.lty-progress-count {
+	float: left;
+	width: 100%;
+	position: relative;
+}
+
+.lty-lottery-progress-bar,
+.lty-progress-count {
+	margin: 5px 0;
+}
+
+.lty-progress-count {
+	display: flex;
+}
+
+.lty-progress-count .lty-progress-bar-start {
+	width: 33%;
+	text-align: left;
+	padding: 0;
+	margin: 0;
+}
+
+.lty-progress-count .lty-progress-bar-notice {
+	width: 33%;
+	padding: 0px 10px;
+	text-align: center;
+	margin: 0;
+}
+
+.lty-progress-count .lty-progress-bar-end {
+	width: 33%;
+	text-align: right;
+	padding: 0;
+	margin: 0;
+}
+
+.lty-progress-bar {
+	height: 15px;
+	border-radius: 5px;
+	position: relative;
+	overflow: hidden;
+	width: 100%;
+	padding: 0;
+	margin: 0;
+}
+
+.lty-progress-bar span {
+	display: block;
+	height: 100%;
+}
+
+.lty-progress-bar span.lty-progress-fill {
+	-webkit-animation: currentpledgebar 2s ease-in-out;
+	-webkit-animation-fill-mode: both;
+	-moz-animation: currentpledgebar 2s ease-in-out;
+	animation-fill-mode: none;
+	-moz-animation-fill-mode: both;
+}
+
+.lty-lottery-progress-bar .lty-progress-remaining-count {
+	margin-top: 5px;
+}
+
+.lty-lottery-progress-bar .lty-progress-bar-percentage {
+	border-radius: 5px;
+	padding: 3px 0;
+	width: 40px;
+	position: absolute;
+	background: #f00;
+	font-size: 12px;
+	left: 0;
+	top: 2px;
+	text-align: center;
+	color: #fff;
+	float: left;
+	line-height: 18px;
+}
+
+.lty-lottery-progress-bar .lty-progress-bar-percentage::after {
+	content: "";
+	position: absolute;
+	top: 100%;
+	left: 50%;
+	margin-left: -5px;
+	border-width: 5px;
+	border-style: solid;
+	border-color: red transparent transparent transparent;
+}
+
+.lty-lottery-progress-bar .lty-inner-percentage {
+	font-size: 13px;
+	line-height: 15px;
+	position: absolute;
+	color: #000;
+	font-weight: bold;
+}
+
+/* Shop page progress bar  */
+
+.lty-lottery-progress-bar-loop,
+.lty-progress-count-loop {
+	width: 100%;
+	position: relative;
+}
+
+.lty-lottery-progress-bar-loop,
+.lty-progress-count-loop {
+	margin: 5px 0;
+}
+
+.lty-progress-count-loop {
+	display: flex;
+}
+
+.lty-progress-count-loop .lty-progress-bar-start {
+	width: 25%;
+	text-align: left;
+	padding: 0;
+	margin: 0;
+}
+
+.lty-progress-count-loop .lty-progress-bar-notice {
+	width: 50%;
+	padding: 0px 10px;
+	text-align: center;
+	margin: 0;
+}
+
+.lty-progress-count-loop .lty-progress-bar-end {
+	width: 25%;
+	text-align: right;
+	padding: 0;
+	margin: 0;
+}
+
+.lty-progress-bar {
+	height: 15px;
+	border-radius: 5px;
+	position: relative;
+	overflow: hidden;
+	width: 100%;
+	padding: 0;
+	margin: 0;
+}
+
+.lty-progress-bar span {
+	display: block;
+	height: 100%;
+}
+
+.lty-progress-bar span.lty-progress-fill {
+	-webkit-animation: currentpledgebar 2s ease-in-out;
+	-webkit-animation-fill-mode: both;
+	-moz-animation: currentpledgebar 2s ease-in-out;
+	animation-fill-mode: none;
+	-moz-animation-fill-mode: both;
+}
+
+.lty-lottery-progress-bar-loop .lty-progress-remaining-count {
+	margin-top: 5px;
+	text-align: left;
+}
+
+.lty-lottery-progress-bar-loop .lty-progress-bar-percentage {
+	border-radius: 5px;
+	padding: 3px 0;
+	width: 40px;
+	position: absolute;
+	background: #f00;
+	font-size: 12px;
+	left: 0;
+	top: -7px;
+	text-align: center;
+	color: #fff;
+	float: left;
+	line-height: 18px;
+}
+
+.lty-lottery-progress-bar-loop .lty-progress-bar-percentage::after {
+	content: "";
+	position: absolute;
+	top: 100%;
+	left: 50%;
+	margin-left: -5px;
+	border-width: 5px;
+	border-style: solid;
+	border-color: red transparent transparent transparent;
+}
+
+.lty-lottery-progress-bar-loop .lty-inner-percentage {
+	font-size: 13px;
+	line-height: 15px;
+	position: absolute;
+	color: #000;
+	font-weight: bold;
+}
+
+/* Range slider */
+.lty-lottery-range-slider-wrapper {
+	float: left;
+	width: 100%;
+	display: block;
+	margin: 0;
+}
+
+.lty-lottery-range-slider-wrapper .lty-lottery-range-slider-content {
+	display: flex;
+	width: 97%;
+	margin: 15px 0;
+	position: relative;
+}
+
+.lty-lottery-range-slider-content .lty-range-slider-discount {
+	border-radius: 4px;
+	position: absolute;
+	padding: 3px 5px;
+	width: 60px;
+	background: #1673d7;
+	top: -45px;
+	text-align: center;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	flex-direction: column;
+	color: #fff;
+	white-space: nowrap;
+	font-size: 12px;
+	font-weight: bold;
+}
+
+.lty-lottery-range-slider-content .lty-range-slider-discount-active {
+	background: #00cc00 !important;
+}
+
+.lty-lottery-range-slider-content .lty-range-slider-discount::before {
+	transition: border-top-color .2s;
+	position: absolute;
+	bottom: -14px;
+	left: 23px;
+	content: "";
+	width: 0;
+	height: 0;
+	border-top: 7px solid;
+	border-bottom: 7px solid transparent;
+	border-left: 7px solid transparent;
+	border-right: 7px solid transparent;
+	border-left-color: currentcolor;
+	border-top-color: currentcolor;
+	border-top-color: #1673d7;
+	border-top-color: #1673d7;
+  }
+
+.lty-lottery-range-slider-content .lty-range-slider-discount-active::before {
+	border-top-color: #00cc00 !important;
+}
+
+.lty-quantity-range-slider {
+	float: left;
+	width: 100%;
+	display: block;
+	margin: 10px 23px;
+	position: relative;
+	background: #f1f1f1 !important;
+	border: none !important;
+}
+
+.lty-quantity-range-slider .ui-slider-handle {
+	background: #fff !important;
+	width: 20px !important;
+	height: 23px !important;
+	border-radius: 100%;
+	border: 1px solid #ccc !important;
+}
+
+.lty-quantity-range-slider .ui-widget-header {
+	background: #0e824c !important;
+}
+
+.lty-lottery-range-value {
+	background-color: #df0e62;
+	text-transform: none;
+	font-size: 11px;
+	border-color: #df0e62;
+	padding: 6px;
+	bottom: -45px;
+	left: -30px;
+	box-shadow: none;
+	width: auto;
+	border-radius: 0;
+	color: #fff;
+	position: absolute;
+	white-space: nowrap;
+	border-radius: 5px;
+}
+
+.lty-lottery-range-value:before {
+	transition: border-top-color .2s;
+	position: absolute;
+	top: -10px;
+	left: 0;
+	content: "";
+	width: 0;
+	height: 0;
+	border-top: 10px solid transparent;
+	border-bottom: 10px solid transparent;
+	border-left: 10px solid;
+	border-left-color: #df0e62;
+}
+
+.lty-lottery-range-slider-btn {
+	width: 30px !important;
+	height: 30px !important;
+	color: #fff !important;
+	line-height: 19px !important;
+	background: #000 !important;
+	border-radius: 15px !important;
+	border: none !important;
+	font-size: 16px !important;
+	padding: 0 !important;
+}
+
+/* Range slider */
+
+/* Winners details by date */
+.lty-lottery-winners-by-date-wrapper {
+	display: block;
+	width: 100%;
+	float: left;
+	margin: 0;
+	padding: 0;
+}
+
+.lty-lottery-winners-by-date-wrapper .lty-lottery-winners-by-date-inner-wrapper {
+	display: block;
+	width: 100%;
+	float: left;
+	margin: 0;
+	padding: 0;
+}
+
+.lty-lottery-winners-by-date-inner-wrapper .lty-lottery-winners-by-date-content {
+	display: block;
+	width: 100%;
+	float: left;
+	margin: 10px;
+	padding: 15px;
+	box-sizing: border-box;
+	background: #fff;
+	border-radius: 15px;
+	box-shadow: 0 0 3px #ccc inset;
+}
+
+.lty-lottery-winners-by-date-content:nth-child(odd) {
+	background: linear-gradient(to top, #eaeaea, #fbfbfb);
+}
+
+.lty-lottery-winners-by-date-content p {
+	margin: 10px 0;
+	padding: 0;
+	color: #999;
+	font-size: 16px;
+	font-weight: 400;
+}
+
+.lty-lottery-winners-by-date-content p b {
+	padding: 0;
+	color: #000;
+	font-size: 16px;
+	font-weight: 400;
+}
+
+.lty-lottery-winners-by-date-content p.lty-lottery-winners-date {
+	margin: 0;
+	padding: 0 0 10px 0 !important;
+	border-bottom: 1px dashed #000;
+	font-size: 18px !important;
+	color: #000;
+}
+
+/* Lottery instant winners details by date start */
+.lty-lottery-instant-winners-by-date-wrapper {
+	display: block;
+	width: 100%;
+	float: left;
+	margin: 0;
+	padding: 0;
+}
+
+.lty-lottery-instant-winners-by-date-wrapper .lty-lottery-instant-winners-by-date-inner-wrapper {
+	display: block;
+	width: 100%;
+	float: left;
+	margin: 0;
+	padding: 0;
+}
+
+.lty-lottery-instant-winners-by-date-inner-wrapper .lty-lottery-instant-winners-by-date-content {
+	display: block;
+	width: 100%;
+	float: left;
+	margin: 10px;
+	padding: 15px;
+	box-sizing: border-box;
+	background: #fff;
+	border-radius: 15px;
+	box-shadow: 0 0 3px #ccc inset;
+}
+
+.lty-lottery-instant-winners-by-date-content:nth-child(odd) {
+	background: linear-gradient(to top, #eaeaea, #fbfbfb);
+}
+
+.lty-lottery-instant-winners-by-date-content p {
+	margin: 10px 0;
+	padding: 0;
+	color: #999;
+	font-size: 16px;
+	font-weight: 400;
+}
+
+.lty-lottery-instant-winners-by-date-content p b {
+	padding: 0;
+	color: #000;
+	font-size: 16px;
+	font-weight: 400;
+}
+
+.lty-lottery-instant-winners-by-date-content p.lty-lottery-instant-winners-date {
+	margin: 0;
+	padding: 0 0 10px 0 !important;
+	border-bottom: 1px dashed #000;
+	font-size: 18px !important;
+	color: #000;
+}
+
+/* Lottery instant winners details by date end */
+
+/* Winners details by date */
+.lty-instant-winners-reports-wrapper {
+	padding: 10px;
+	width: 100%;
+	box-sizing: border-box;
+	margin-bottom: 15px;
+	background: #f1f2f2;
+	border-radius: 6px;
+}
+
+.lty-instant-winners-reports-wrapper span {
+	color: #999;
+}
+
+.lty-instant-winners-reports-wrapper .lty-price-won-count {
+	float: right;
+}
+
+.lty-lottery-manual-ticket-search-container {
+	margin-bottom: 10px;
+}
+
+.lty-manual-ticket-click-to-back-action {
+	margin-top: 10px;
+}
+
+.lty-add-more-lucky-tip {
+	margin-bottom: 10px;
+}
+
+/* view more lottery tickets button */
+.lty-ticket-number-wrapper .lty-toggle-view-button {
+	clear: both;
+	float: left;
+	display: block;
+	margin: 5px;
+}
+
+/* view more lottery tickets button end */
+
+.lty-hide {
+	display: none;
+}
+
+.lty-show {
+	display: block;
+}
+
+/* Customer participated lottery tickets */
+.lty-customer-lottery-tickets {
+	max-height: 350px;
+	overflow-y: scroll;
+	display: block;
+	width: 100%;
+	margin: 0;
+	padding: 0;
+	border-collapse: collapse;
+	border-top: 1px solid #666;
+}
+
+.lty-customer-lottery-tickets tbody,
+.lty-customer-lottery-tickets tbody tr {
+	width: 100%;
+	color: #000;
+}
+
+.lty-customer-lottery-tickets tr {
+	line-height: 10px;
+}
+
+.lty-customer-lottery-tickets tr:nth-child(odd) {
+	background: #f9f9f9 !important;
+}
+
+.lty-customer-lottery-tickets th,
+.lty-customer-lottery-tickets td {
+	word-break: break-word !important;
+}
+
+.lty-customer-lottery-tickets td {
+	padding: 15px;
+	color: #666;
+	background: none;
+	border: none;
+	font-size: 14px;
+	text-align: left;
+	vertical-align: middle;
+	width: 30%;
+}
+
+.lty-customer-lottery-tickets tfoot {
+	width: 88%;
+	position: sticky;
+	bottom: 0;
+}
+
+.lty-lottery-tickets-modal-header {
+	margin-bottom: 5px;
+}
+
+.lty-lottery-tickets-modal-header .lty-lottery-tickets-modal-title {
+	font-size: 18px;
+	color: #000;
+}
+/* Customer participated lottery tickets end */
+
+/* Entry List */
+.lty-entry-list-content-wrapper h3 {
+	margin-top: 25px !important;
+}
+
+.lty-entry-list-content-wrapper,
+.lty-entry-list-content-wrapper p {
+	width: 100%;
+	float: left;
+	display: block;
+	border-collapse: collapse;
+}
+
+.lty-entry-list-header-wrapper {
+	width: 100%;
+	float: left;
+	display: block;
+	border-bottom: 1px dashed #adadad;
+}
+
+.lty-entry-list-header-wrapper h2 {
+	font-size: 2em;
+	font-weight: 600;
+	color: #000;
+	line-height: 1.2;
+	float: left;
+	margin: 0 0 10px 0;
+}
+
+.lty-entry-list-header-wrapper .lty-lottery-entry-list-pdf-download-button {
+	float: right;
+	padding: 8px;
+	border-radius: 5px;
+	color: #000;
+}
+
+.lty-entry-list-content-wrapper p {
+	margin: 0;
+	color: #6d6d6d;
+}
+
+.lty-entry-list-content-wrapper p:nth-child(even) {
+	background: #fdfdfd;
+}
+
+.lty-entry-list-content-wrapper p label {
+	float: left;
+	padding: 5px;
+	color: #6d6d6d;
+	font-size: 16px;
+	font-weight: 600;
+}
+
+.lty-entry-list-content-wrapper .lty-entry-list-title a {
+	color: #7f54b3;
+	text-decoration: underline;
+	text-decoration-thickness: 2px;
+}
+
+.lty-entry-list-content-wrapper .lty-entry-list-title a:hover {
+	text-decoration: none;
+}
+
+.lty-entry-list-content-wrapper .lty-entry-list-summary-left-content,
+.lty-entry-list-content-wrapper .lty-entry-list-summary-right-content {
+	float: left;
+	width: 49%
+}
+
+.lty-entry-list-content-wrapper .lty-entry-list-summary-right-content {
+	margin-left: 2%;
+}
+
+.lty-entry-list-content-wrapper .lty-entry-list-summary-left-content label {
+	width: 30%;
+}
+
+.lty-entry-list-content-wrapper .lty-entry-list-summary-right-content label {
+	width: 60%;
+}
+
+.lty-entry-list-summary-content {
+	margin-bottom: 15px;
+	float: left;
+	width: 100%;
+}
+
+.lty-entry-list-summary-content p span {
+	padding: 5px;
+	display: block;
+}
+
+.lty-entry-list-ticket-logs-content-wrapper {
+	float: left;
+	width: 100%;
+	display: block;
+}
+
+.lty-entry-list-ticket-logs-content-wrapper h3 {
+	font-size: 2em;
+	font-weight: 500;
+	color: #000;
+	line-height: 1.2;
+	margin: 0 0 10px 0;
+	padding: 0 0 10px 0;
+	border-bottom: 1px dashed #adadad;
+}
+
+.lty-entry-list-winners-logs-content-wrapper {
+	float: left;
+	width: 100%;
+	display: block;
+}
+
+.lty-entry-list-winners-logs-content-wrapper h3 {
+	font-size: 2em;
+	font-weight: 500;
+	color: #000;
+	line-height: 1.2;
+	margin: 0 0 10px 0;
+	padding: 0 0 10px 0;
+	border-bottom: 1px dashed #adadad;
+}
+
+.lty-ticket-logs-filters {
+	float: left !important;
+	width: 100% !important;
+	margin: 15px 0 !important;
+	padding: 0 !important;
+}
+
+.lty-ticket-logs-filters button {
+	background-color: #eeeeee;
+	color: #333333;
+	border: 0;
+	border-radius: 5px;
+	cursor: pointer;
+	padding: 9px;
+	text-decoration: none;
+	font-weight: 600;
+	text-shadow: none;
+	display: inline-block;
+	-webkit-appearance: none;
+}
+
+.lty-ticket-logs-filters button:hover {
+	background-color: #d5d5d5;
+	color: #333333;
+}
+
+.lty-ticket-logs-filters input[type='text'] {
+	width: 300px;
+	height: 40px;
+	border: 1px solid #ccc;
+	background: #fff;
+	border-radius: 3px;
+}
+
+/* Myaccount lottery menu start */
+.lty-myaccount-lottery-wrapper {
+	margin-bottom: 20px;
+}
+
+.lty-myaccount-lottery-wrapper,
+.lty-myaccount-lottery-navigation,
+.lty-myaccount-lottery-contents {
+	float: left;
+	width: 100%;
+}
+
+.lty-myaccount-lottery-navigation nav {
+	float: left;
+	margin: 0;
+	padding: 0;
+	width: 100%;
+	border-top-right-radius: 10px;
+	border-top-left-radius: 10px;
+}
+
+.lty-myaccount-lottery-navigation nav a {
+	float: left;
+	margin: 0;
+	padding: 10px 15px;
+	background: none;
+	border: none;
+	text-decoration: none !important;
+}
+
+.lty-myaccount-lottery-navigation nav a span {
+	margin-right: 5px;
+}
+
+.lty-myaccount-lottery-navigation nav .lty-current {
+	background: none;
+	border-bottom: none;
+	font-weight: bold;
+}
+
+.lty-myaccount-lottery-contents h3 {
+	color: #000;
+	font-size: 18px;
+	font-weight: 600;
+	text-transform: capitalize;
+}
+
+.lty-myaccount-lottery-contents h3,
+.lty-myaccount-lottery-contents table {
+	width: 95%;
+	margin: 10px auto;
+}
+
+.lty-myaccount-lottery-contents {
+	background: #fff;
+	border-bottom-right-radius: 10px;
+	border-bottom-left-radius: 10px;
+}
+
+.lty-myaccount-lottery-contents .lty-no-product-notice {
+	display: block;
+	margin-top: 20px;
+	margin-bottom: 20px;
+	text-align: center;
+}
+
+.lty-view-all-tickets:hover {
+	cursor: pointer;
+}
+
+/* Myaccount lottery menu end */
+
+/* Entry List */
+
+/* Instant winner prize group start */
+.lty-instant-winner-prize-group-item {
+	border: 1px solid #ddd;
+	margin-bottom: 10px;
+	border-radius: 5px;
+	padding: 8px;
+	background-color: #f8f8f8;
+}
+
+.lty-instant-winner-prize-group-item-header {
+	display: flex;
+	align-items: center;
+	justify-content: left;
+	cursor: pointer;
+	min-height: 80px;
+}
+
+.lty-instant-winner-prize-group-item-header img {
+	height: 80px;
+	width: 80px;
+	padding: 5px;
+	border-radius: 8px;
+}
+
+.lty-instant-winner-prize-group-item-header .lty-instant-winner-prize-group-item-header-content {
+	width: 90%;
+	margin-left: 10px;
+}
+
+.lty-instant-winner-prize-group-item-header .lty-instant-winner-group-prize-message {
+	font-weight: bold;
+	font-size: 17px;
+	color: #000000;
+}
+
+.lty-instant-winner-prize-group-item-header .lty-instant-winner-group-available-prize {
+	display: block;
+	font-size: 11px;
+	padding: 3px 5px;
+	background-color: #f1f2f2;
+	width: fit-content;
+	border-radius: 4px;
+	color: #000000;
+}
+
+.lty-instant-winner-prize-group-item-header .lty-expand-prize-group {
+	padding-top: 20px;
+	height: 60px;
+	width: 45px;
+	border-radius: 4px;
+	background-color: #f1f2f2;
+}
+
+.lty-instant-winner-prize-group-item-content {
+	background-color: #fff;
+	padding: 10px;
+	border-radius: 5px;
+	border-top: 1px solid #ddd;
+	margin-top: 5px;
+}
+
+.lty-instant-winner-prize-group-item-content .lty-instant-winner-group-ticket-numbers-header {
+	display: inline-block;
+	width: 100%;
+}
+
+.lty-instant-winner-prize-group-item-content .lty-instant-winner-group-ticket-numbers-title {
+	font-size: 15px;
+	float: left;
+}
+
+.lty-instant-winner-prize-group-item-content .lty-instant-winner-group-ticket-numbers {
+	display: flex;
+	flex-wrap: wrap;
+	gap: 10px;
+	margin-top: 10px;
+}
+
+.lty-instant-winner-prize-group-item-content .lty-ticket-number {
+	padding: 5px;
+	border-radius: 5px;
+	font-size: 12px;
+	text-align: center;
+	width: 80px;
+	margin-bottom: 10px;
+}
+/* Instant winner prize group end */
+
+.lty-pagination-wrapper {
+	display: block;
+}
+	
+.lty-pagination-wrapper nav {
+	text-align: center;
+	width: 100%;
+}
+	
+.lty-pagination-wrapper nav ul {
+	margin: 0;
+	list-style: none;
+	border: none !important;
+}
+	
+.lty-pagination-wrapper nav ul li {
+	display: inline-block;
+	margin-left: 3px;
+}
+	
+.lty-pagination-wrapper nav ul li a {
+	display: inline-block;
+	padding: 10px;
+	margin: 0;
+	background: #fafafa;
+	border: none;
+	color: #43454b;
+	text-decoration: none;
+}
+	
+.lty-pagination-wrapper nav ul li a.current {
+	background: #ccc;
+	border: none;
+	color: #000;
+}
+
+.lty-instant-win-gift-product-message{
+	color: #358014;
+}
+
+.lty-instant-winner-group-ticket-numbers-wrapper {
+	display: inline-block;
+	width: 100%;
+}
+
+@media screen and (max-width: 768px) {
+
+	.lty-frontend-table {
+		border: 1px solid #f1f1f1;
+	}
+
+	.lty-frontend-table tbody tr {
+		display: block;
+	}
+
+	.lty-frontend-table thead {
+		display: none;
+	}
+
+	.lty-frontend-table tr td::before {
+		float: left;
+		content: attr(data-title) ": ";
+		font-weight: 700;
+	}
+
+	.lty-frontend-table tfoot tr td {
+		border: none;
+		text-align: center !important;
+	}
+
+	.lty-frontend-table tfoot tr td nav {
+		float: none;
+	}
+
+	.lty-frontend-table tfoot tr td::before {
+		float: left;
+		content: " ";
+	}
+
+	.lty-frontend-table tr td {
+		display: block;
+		border-right: 0;
+		border-bottom: 1px solid #f1f1f1;
+		text-align: right !important;
+	}
+
+	.lty-frontend-table tbody td button {
+		float: none;
+	}
+
+	.lty-dashboard-navigation nav {
+		background: #f7f7f7;
+	}
+
+	.lty-entry-list-content-wrapper .lty-entry-list-summary-left-content,
+	.lty-entry-list-content-wrapper .lty-entry-list-summary-right-content {
+		float: left;
+		width: 100%;
+		margin-left: 0 !important
+	}
+
+	.lty-entry-list-content-wrapper .lty-entry-list-summary-left-content label,
+	.lty-entry-list-content-wrapper .lty-entry-list-summary-right-content label {
+		width: 50%;
+	}
+
+	.lty-customer-lottery-tickets tbody {
+		display: block;
+	}
+	.lty-customer-lottery-tickets tbody tr {
+		width: 100% !important;
+	}
+
+	.lty-customer-lottery-tickets tfoot tr {
+		width: 88%;
+		display: block;
+	}
+
+	.lty-customer-lottery-tickets tfoot td,
+	.lty-customer-lottery-tickets tbody td {
+		width: 100% !important;
+	}
+
+	.lty-frontend-table tr td::before,
+	.lty-frontend-table tr td::after {
+		display: table;
+	}
+
+	.lty-frontend-table tr td::after {
+		clear: both;
+		content: "";
+	}
+
+	.lty_lottery_not_started_status span,
+	.lty_lottery_started_status span,
+	.lty_lottery_failed_status span,
+	.lty_lottery_finished_status span,
+	.lty_lottery_closed_status span {
+		display: initial;
+		float: none;
+		padding: 10px;
+		border-radius: 5px;
+	}
+}

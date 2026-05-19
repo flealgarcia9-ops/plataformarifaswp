@@ -1,0 +1,510 @@
+/*
+Theme Name: Rifas Los Primos - Elementor Child
+Template: hello-elementor
+Version: 1.0.0
+Author: Rifas Team
+*/
+
+/* ===== CSS Variables ===== */
+:root {
+  --rifas-green: #00c853;
+  --rifas-green-dark: #00a344;
+  --rifas-green-light: #69f0ae;
+  --rifas-red: #ff0000;
+  --rifas-red-dark: #d50000;
+  --rifas-yellow: #ffd600;
+  --rifas-black: #1a1a1a;
+  --rifas-gray: #f5f5f5;
+  --rifas-white: #ffffff;
+  --rifas-whatsapp: #25d366;
+}
+
+/* ===== Reset & Base ===== */
+body {
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  background: var(--rifas-white);
+  color: var(--rifas-black);
+  margin: 0;
+  padding: 0;
+}
+
+/* ===== Header ===== */
+.rifas-top-header {
+  background: #ffffff;
+  padding: 15px 20px;
+}
+
+.rifas-top-header a:first-child {
+  display: inline-block;
+  background: #ffffff;
+}
+
+.rifas-header-inner {
+  display: grid;
+  grid-template-columns: 1fr auto 1fr;
+  align-items: center;
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 0 20px;
+}
+
+.rifas-header-inner > a:first-child {
+  grid-column: 2;
+  text-align: center;
+}
+
+.rifas-header-logo-img {
+  max-width: 180px !important;
+  height: auto !important;
+  background: var(--rifas-white);
+}
+
+.rifas-footer-logo {
+  max-width: 120px;
+  background: var(--rifas-white);
+}
+
+.rifas-header-cart {
+  grid-column: 3;
+  justify-self: end;
+  background: var(--rifas-white);
+  border: 2px solid var(--rifas-red);
+  color: var(--rifas-red);
+  padding: 8px 16px;
+  border-radius: 6px;
+  text-decoration: none;
+  font-weight: 600;
+  font-size: 0.9rem;
+  transition: all 0.2s;
+  white-space: nowrap;
+}
+
+.rifas-header-cart:hover {
+  background: var(--rifas-red);
+  color: var(--rifas-white);
+}
+
+/* Hide page title on homepage */
+.home .page-header,
+.home .entry-title,
+.home .page-title,
+.page-id-22 .page-header {
+  display: none !important;
+}
+
+/* Center site header */
+.site-header {
+  text-align: center;
+  padding: 10px 0;
+}
+
+/* ===== Hero Section ===== */
+.rifas-hero {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 40px;
+  padding: 30px 20px;
+  max-width: 1000px;
+  margin: 0 auto;
+}
+
+.rifas-hero-image {
+  flex: 0 0 45%;
+  max-width: 420px;
+}
+
+.rifas-hero-image img {
+  width: 100%;
+  border-radius: 30px;
+  height: auto;
+  object-fit: cover;
+  display: block;
+}
+
+.rifas-hero-info {
+  flex: 0 0 45%;
+  text-align: center;
+}
+
+.rifas-hero-info h1 {
+  font-size: 3.2rem;
+  font-weight: 900;
+  text-transform: uppercase;
+  line-height: 1.05;
+  margin: 0 0 20px 0;
+  color: var(--rifas-black);
+}
+
+.rifas-hero-price {
+  font-size: 1.2rem;
+  font-weight: 600;
+  margin-bottom: 10px;
+}
+
+.rifas-hero-price span {
+  color: var(--rifas-red);
+  font-weight: 700;
+}
+
+.rifas-price-highlight {
+  color: var(--rifas-red);
+  font-weight: 700;
+  text-decoration: underline;
+  text-decoration-color: var(--rifas-red);
+  text-underline-offset: 3px;
+}
+
+.rifas-hero-discount {
+  font-size: 1.1rem;
+  font-weight: 600;
+  margin-bottom: 15px;
+}
+
+.rifas-hero-discount span {
+  color: var(--rifas-red);
+  font-weight: 700;
+}
+
+.rifas-hero-description {
+  color: #666;
+  font-size: 0.95rem;
+  max-width: 500px;
+  margin: 0 auto;
+}
+
+/* ===== Progress Bar ===== */
+.rifas-progress-section {
+  text-align: center;
+  padding: 20px;
+  max-width: 800px;
+  margin: 0 auto;
+}
+
+.rifas-progress-section h2 {
+  font-size: 2rem;
+  font-weight: 700;
+  margin-bottom: 20px;
+  color: var(--rifas-black);
+}
+
+.rifas-progress-bar {
+  width: 100%;
+  height: 30px;
+  background: #e0f2e9;
+  border-radius: 15px;
+  overflow: hidden;
+  border: 2px solid var(--rifas-green-light);
+}
+
+.rifas-progress-fill {
+  height: 100%;
+  background: var(--rifas-green);
+  border-radius: 15px;
+  transition: width 0.5s ease;
+}
+
+/* ===== Quantity Grid ===== */
+.rifas-quantity-grid {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 12px;
+  padding: 20px;
+  max-width: 400px;
+  margin: 0 auto;
+}
+
+.rifas-qty-btn {
+  display: block;
+  width: 100%;
+  max-width: 320px;
+  padding: 14px 20px;
+  text-align: center;
+  border-radius: 6px;
+  font-weight: 600;
+  font-size: 0.95rem;
+  text-decoration: none;
+  color: #fff;
+  transition: transform 0.15s, box-shadow 0.15s;
+  border: none;
+  cursor: pointer;
+}
+
+.rifas-qty-btn:hover {
+  transform: scale(1.02);
+  box-shadow: 0 4px 12px rgba(0,0,0,0.15);
+}
+
+.rifas-qty-btn--green {
+  background: var(--rifas-green);
+}
+
+.rifas-qty-btn--red {
+  background: var(--rifas-red);
+}
+
+/* ===== Custom Quantity Input ===== */
+.rifas-custom-qty {
+  text-align: center;
+  padding: 20px;
+  max-width: 400px;
+  margin: 0 auto;
+}
+
+.rifas-custom-qty label {
+  display: block;
+  font-weight: 700;
+  color: #888;
+  margin-bottom: 10px;
+  font-size: 1rem;
+}
+
+.rifas-custom-qty input {
+  width: 70px;
+  padding: 12px;
+  text-align: center;
+  border: 2px solid #e0e0e0;
+  border-radius: 4px;
+  font-size: 1.1rem;
+  margin-bottom: 15px;
+  color: #555;
+}
+
+.rifas-buy-now-btn {
+  display: block;
+  width: 100%;
+  max-width: 220px;
+  margin: 0 auto;
+  padding: 16px 24px;
+  background: var(--rifas-green);
+  color: #fff;
+  border: none;
+  border-radius: 6px;
+  font-weight: 600;
+  font-size: 1.05rem;
+  cursor: pointer;
+  transition: transform 0.15s, box-shadow 0.15s;
+}
+
+.rifas-buy-now-btn:hover {
+  transform: scale(1.02);
+  box-shadow: 0 4px 12px rgba(0,0,0,0.15);
+}
+
+/* ===== WhatsApp Banner ===== */
+.rifas-whatsapp-banner {
+  text-align: center;
+  padding: 20px;
+  max-width: 600px;
+  margin: 0 auto;
+}
+
+.rifas-whatsapp-banner p {
+  font-size: 0.95rem;
+  font-weight: 600;
+  margin-bottom: 15px;
+}
+
+.rifas-whatsapp-banner a {
+  color: var(--rifas-red);
+  font-weight: 700;
+  text-decoration: none;
+}
+
+.rifas-whatsapp-btn {
+  display: block;
+  width: 100%;
+  max-width: 500px;
+  margin: 0 auto;
+  background: #7ed321;
+  color: #000;
+  font-weight: 700;
+  padding: 16px;
+  border-radius: 8px;
+  text-decoration: none;
+  font-size: 0.95rem;
+  text-align: center;
+  transition: transform 0.15s;
+}
+
+.rifas-whatsapp-btn:hover {
+  transform: scale(1.02);
+}
+
+/* ===== Footer ===== */
+.rifas-footer {
+  text-align: center;
+  padding: 30px 20px;
+  background: var(--rifas-white);
+}
+
+.rifas-footer-grid {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  flex-wrap: wrap;
+  gap: 20px;
+  max-width: 900px;
+  margin: 0 auto;
+}
+
+.rifas-footer h3 {
+  color: var(--rifas-green-dark);
+  font-size: 1.4rem;
+  margin-bottom: 10px;
+}
+
+.rifas-footer p {
+  color: #555;
+  margin: 5px 0;
+  font-size: 0.9rem;
+}
+
+.rifas-footer a {
+  color: var(--rifas-red);
+  text-decoration: none;
+}
+
+.rifas-footer-logo {
+  max-width: 120px;
+}
+
+/* ===== WhatsApp Float ===== */
+.rifas-whatsapp-float {
+  position: fixed;
+  bottom: 20px;
+  right: 20px;
+  width: 56px;
+  height: 56px;
+  background: var(--rifas-whatsapp);
+  border-radius: 50%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  box-shadow: 0 4px 12px rgba(0,0,0,0.25);
+  z-index: 9999;
+  transition: transform 0.2s;
+}
+
+.rifas-whatsapp-float:hover {
+  transform: scale(1.1);
+}
+
+.rifas-whatsapp-float svg {
+  width: 32px;
+  height: 32px;
+  fill: #fff;
+}
+
+/* ===== Checkout Customizations ===== */
+.woocommerce-checkout .woocommerce-billing-fields h3,
+.woocommerce-checkout #order_review_heading {
+  color: #4a5d23;
+  font-size: 1.2rem;
+  margin-bottom: 15px;
+}
+
+.woocommerce-checkout button#place_order {
+  background: #7ed321 !important;
+  color: #000 !important;
+  font-weight: 700;
+  font-size: 1rem;
+  padding: 16px;
+  border-radius: 8px;
+}
+
+.woocommerce-notices-wrapper .woocommerce-message {
+  border-top-color: var(--rifas-green);
+}
+
+.woocommerce-notices-wrapper .button.wc-forward {
+  background: var(--rifas-green);
+  color: #fff;
+}
+
+/* ===== Return Button ===== */
+.rifas-return-btn {
+  display: block;
+  width: 100%;
+  max-width: 400px;
+  margin: 20px auto;
+  background: var(--rifas-green);
+  color: #fff;
+  text-align: center;
+  padding: 16px;
+  border-radius: 8px;
+  font-weight: 700;
+  font-size: 1rem;
+  text-decoration: none;
+}
+
+/* ===== Responsive ===== */
+@media screen and (max-width: 768px) {
+  .rifas-hero {
+    flex-direction: column;
+  }
+
+  .rifas-hero-image,
+  .rifas-hero-info {
+    flex: 0 0 100%;
+    max-width: 100%;
+  }
+
+  .rifas-hero-info h1 {
+    font-size: 2rem;
+  }
+  
+  .rifas-hero-image img {
+    max-width: 320px;
+    margin: 0 auto;
+  }
+
+  .rifas-header-inner {
+    grid-template-columns: 1fr auto;
+    gap: 10px;
+  }
+
+  .rifas-header-inner > a:first-child {
+    grid-column: 1 / -1;
+    order: -1;
+  }
+
+  .rifas-header-cart {
+    grid-column: 2;
+    font-size: 0.8rem;
+    padding: 6px 10px;
+  }
+}
+
+/* Fix logo size in checkout */
+.rifas-header-logo-img {
+  max-height: 60px;
+  width: auto;
+}
+
+/* Cart page - green checkout button */
+.wc-proceed-to-checkout .checkout-button,
+.wc-block-components-checkout-place-order-button {
+  background: var(--rifas-green) !important;
+  color: #fff !important;
+  font-weight: 700 !important;
+  border-radius: 8px !important;
+  border: none !important;
+}
+
+/* Cart checkout button - force green */
+a.checkout-button.button.alt.wc-forward,
+.wc-proceed-to-checkout a.checkout-button {
+  background: var(--rifas-green) !important;
+  color: #fff !important;
+  font-weight: 700 !important;
+  border-radius: 8px !important;
+  border: none !important;
+  padding: 16px 32px !important;
+  text-transform: uppercase !important;
+}
+a.checkout-button.button.alt.wc-forward:hover,
+.wc-proceed-to-checkout a.checkout-button:hover {
+  background: #2a8c2a !important;
+}

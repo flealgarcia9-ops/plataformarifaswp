@@ -1,0 +1,785 @@
+*** Giveaway (formerly Lottery) for WooCommerce ***
+
+2026-02-02 - version 12.5.0
+* Update - Updated labels.
+* Fix - Action buttons not working in the Giveaway Tickets post table (backend/admin).
+
+2026-01-28 - version 12.4.0
+* New - Added instant winner prize image on the order Thank You page.
+* New - Added an option to send a Giveaway Ending Soon email notification to users.
+* New - Added a manual email notification option for each giveaway product in the giveaway posts table.
+* New - Added an option to prevent hold tickets from being stored in the database to prevent duplicate tickets during simultaneous purchases.
+* New - Added filter hooks: lty_formatted_sequential_ticket_numbers, lty_formatted_shuffled_ticket_numbers.
+* Dev - Bump WooCommerce "tested up to" version 10.4.3.
+* Fix - Automatic winner selection was always picking the lowest ticket numbers when Unique Winners was enabled.
+* Fix - Customer – Selected Incorrect Answer email notification was incorrectly sent for manually created orders.
+* Fix - Ticket_number email shortcode was not working in the Customer – Selected Incorrect Answer email notification.
+
+2025-12-16 - version 12.3.0
+* Update - Performance improvements for retrieving ticket counts from the database.
+* Dev - Bumped minimum required versions.
+* Dev - Bump WooCommerce "tested up to" version 10.4.2.
+* Dev - Bump WordPress "tested up to" version 6.9.
+* Fix - Action buttons and bulk actions were not working in Instant Winner table on Giveaway post table(Backend).
+* Fix - Addressed warnings reported by WooCommerce's Quality Insights Toolkit(QIT).
+
+2025-11-15 - version 12.2.0
+* Update - Improvement made in manually creating order using giveaway product for guest users when Prevent Guest Participation.  
+* Fix    - Instant Win Rule was not updating properly when modifying the Instant Win Prize Group settings.
+* Fix    - Fatal error occurring on the cart page.
+* Fix    - Product name not displaying correctly in Customer - Giveaway Instant Winner for recent order email.
+* Dev    - Bump WooCommerce "tested up to" version 10.3.5. 
+
+2025-10-24 - version 12.1.0
+* New    - Added an option to automatically delete ticket entries when the corresponding order is deleted.
+* Update - Improved the display of the "Participate Now" button label for predefined buttons (Automatic ticket type) and user-chosen ticket types.
+* Update - Improvement made in the import option for Instant win prize groups.
+* Fix    - Resolved an issue where the "Lucky Dip" button was displaying even when the option was disabled.
+* Fix    - Corrected ticket price display when adjusting the range slider after clicking a predefined button.
+* Dev    - Compatibility improvements for WooCommerce version 10.3.0.
+* Dev    - Bump WordPress "tested up to" version 6.8.3.
+
+2025-09-19 - version 12.0.0
+* New    - Plugin name changed.
+* New    - Compatibility added with CURCY - WooCommerce Multi Currency plugin.
+* New    - Added pagination for tickets display in each Instant Winner Prize Group.
+* Update - Added troubleshoot options for AJAX loading on the lottery product page.
+* Update - Improvements made for predefined buttons functionality and shortcode [lty_lottery_predefined_buttons].
+* Fix    - Duplicate tickets were generated when purchasing the Free Ticket pricing type.
+* Fix    - Undefined variable error thrown on Giveaway Dashboard.
+* Fix    - Entry List was incorrectly displaying the single product page instead of the entry list details.
+
+2025-08-26 - version 11.9.0
+* Update - Optimized query for instant winner group prize on single product page.
+* Update - Added lottery status and lottery ticket status filter for exporting all lottery tickets csv.
+* Update - Improvements made in predefined button decimal value display.
+* Update - Improvement in assigning lottery products in Winning Item(s) on lottery product settings(Edit product page).
+* Update - Bump WooCommerce "tested up to" version 10.1.1.
+* Fix    - Instant win prize was still displayed on the lottery dashboard after the related ticket purchase order was cancelled.
+* Fix    - Export all lottery tickets CSV not working properly.
+
+2025-08-13 - version 11.8.0
+* Update - Improvement in ticket generation for orders that change from "Failed" to "Completed".
+* Dev    - Bump WordPress "tested up to" version 6.8.2.
+* Dev    - Bump WooCommerce "tested up to" version 10.1.0.
+* Fix    - Error thrown when using [lty_lottery_products_winners_list] shortcode.
+* Fix    - Lottery Dashboard Popup not displaying properly when using Pomana theme(Conflict issue)
+* Fix    - Chosen answer not displaying in lost lotteries on the lottery dashboard  
+* Fix    - Sorting option not working for the lottery ticket details tab on the single product page
+* Fix    - Hold ticket meta(_lty_hold_tickets) is not removing properly when deleting the ticket in the lottery post table.
+
+2025-07-22 - version 11.7.0
+* New    - Added option to run lotteries with unlimited time duration (without end date).
+* New    - Added developer hook[lty_restrict_db_hold_tickets_update].
+* Update - Improved performance for updating lottery ticket counts.
+* Dev    - Bump WooCommerce "tested up to" version 10.0.2.
+* Dev    - Bump WordPress "tested up to" version 6.8.2.
+* Fix    - Lottery page and Lottery Entry List page were not working with the Twenty Twenty Five theme.
+
+2025-06-13 - version 11.6.0
+* Update - Improvement in flush_rewrite_rules() function(It runs only for required actions instead of all front-end pages).
+* Dev    - Bump WooCommerce "tested up to" version 9.9.3.
+* Fix    - Purchased Ticket numbers not displaying for WooCommerce New order email.
+* Fix    - Participate Now button not displaying for automatically relisted lottery.
+* Fix    - Finished lottery not automatically relisted based on finished date.
+* Fix    - Automatic lottery relist not working properly without pause time.
+
+2025-05-21 - version 11.5.0
+* New    - Added option to assign the gift product in the instant win prize.
+* Update - Supported instant winner name shortcode {instant_winner_name} for Won Prize(Group Prize) label on localization.
+* Update - Improvement made in instant win prize for Terra Wallet(Woo Wallet) support.
+* Dev    - Bump WooCommerce "tested up to" version 9.8.5.
+* Fix    - Instant win prize bulk actions not working on the backend post table.
+* Fix    - Bulk select option not working in instant win prize groups on the edit product page.
+* Fix    - Add more tickets lucky dip button not working on the single product page.
+
+2025-05-09 - version 11.4.0
+* New - Display no luck message for instant win prize on user(s) thank you page and order details page. 
+* New - Added shortcode to display the lucky dip button with fixed quantity value. 
+* Update - Improvement made in download the lottery ticket(s) pdf on thank you page and order details.
+* Dev - Bump WooCommerce "tested up to" version 9.8.4.
+* Dev - Bump WordPress "tested up to" version 6.8.1.
+
+2025-04-17 - version 11.3.0
+* Update - Improvement made in instant win prize import option for relisted lotteries.
+* Dev    - Bump WooCommerce "tested up to" version 9.8.1.
+* Dev    - Bump WordPress "tested up to" version 6.8.0.
+* Fix    - Checkout loading issue occurring for generating the unique ticket numbers(when the same numbers(1,2,3, etc) already used in previous orders).
+
+2025-04-05 - version 11.2.0
+* Update - Improvement made in performance of retrieving the sold tickets count.
+* Update - Improvement made in reducing the loading time for the purchasing bulk tickets(For Shuffled & Sequential lottery ticket types).
+* Fix    - Duplicate tickets issue occurs when different users place the orders simultaneously(For Shuffled or Sequential lottery ticket types).
+* Fix    - Automatic ticket generation is not working properly when creating order manually(edit order) using multiple lottery product.
+* Fix    - Error thrown in Instant Win Prizes tab on product page(When left empty in the pagination settings)
+
+2025-03-18 - version 11.1.0
+* New    - Option to enter the ticket number manually for automatic ticket generation when creating order manually using lottery product(edit order).
+* New    - Added instant win prize groups option.
+* New    - Added developer hooks[lty_instant_winner_rule_prize_type_column_data, lty_instant_winner_rule_popup_prize_type_column_data, lty_instant_winner_prize_group_prize_type_column_data].
+* Update - Display improvement in the lottery post table search.
+* Dev    - Bump WooCommerce "tested up to" version 9.7.1.
+* Fix    - Force Users to Answer the Question option not working for manually creating orders(edit order).
+* Fix    - New Coupons not creating for Instant Win Prizes.
+* Fix    - Instant Win Prize Store credit(Smart Coupon) not working properly(Multiple Store credits in a same order).
+
+2025-02-28 - version 11.0.0
+* New    - Supported Store Credits(Smart Coupons for WooCommerce) for Instant Win Prize.
+* New    - Added shortcode to display lottery predefined buttons.
+* New    - Added ticket price and order amount in lottery tickets export CSV file.
+* Update - Code Improvements in lottery instant winner prizes count(Available Prize(s) count & Won Prize(s) Count).
+* Dev    - Bump WordPress "tested up to" version 6.7.2.
+* Dev    - Bump WooCommerce "tested up to" version 9.7.0.
+* Fix    - Instant Win Prize tab not displayed on product page when Lottery tickets details tab is disabled.
+
+2025-01-22 - version 10.9.0
+* New   - Added option to display Instant Win details on Thank you page & Order details page
+* Tweak - Improvement made in Participate Now Button Label for Predefined buttons(Supported shortcodes {lottery_price}, {ticket_quantity}) 
+* Tweak - Improvement made in import option(when importing large data) for instant win prize
+* Tweak - Tested with WooCommerce v9.6.0
+* Fix   - Maximum tickets per order option not working properly
+
+2025-01-09 - version 10.8.0
+* Tweak - Added advanced option(Import chunk count) on Instant win prize import
+* Tweak - Improvement in instant win prize import loading time
+* Tweak - Improvement in update ticket quantity on cart page when enabled predefined button with quantity selector
+* Tweak - Tested with WooCommerce v9.5.2
+* Fix   - Predefined button discount not applied when update the quantity using quantity selector(when enabled predefined button with Quantity selector)
+* Fix   - Lottery start date & end date are not working properly on backend(Conflict with Roneous Theme(TLG Framework))
+
+2024-12-23 - version 10.7.0
+* New   - Added option to hide payment gateways for lottery ticket purchase
+* New   - Added options to customize the read more button for Not started, On-going, Closed, Finished and Failed lotteries on shop page
+* Tweak - Added missing strings in PO file translation
+* Tweak - Supported LOCO Translate plugin(Custom path) for string translation
+* Tweak - Tested with WordPress v6.7.1 & WooCommerce v9.5.1
+* Fix   - Wallet Funds being debited for the cancelled orders[Compatibility issue with the Wallet for WooCommerce Plugin & Instant Win option]
+
+2024-11-20 - version 10.6.0
+* New   - Added option to assign WooCommerce coupon for Instant Win Prize
+* New   - Supported Wallet(Wallet for WooCommerce) for Instant Win Prize
+* New   - Supported Terra Wallet(Woo Wallet) for Instant Win Prize
+* New   - Supported Store Credit(Store Credit for WooCommerce) for Instant Win Prize
+* New   - Added options to display instant win prize details on lottery dashboard(frontend)
+* New   - Added options to display the discount tag for Predefined buttons & Range slider on Predefined button settings
+* New   - Added an option to prevent creating lottery tickets through Rest API
+* New   - Added developer hooks[lty_export_lottery_ticket_custom_data, lty_export_lottery_ticket_ids, lty_lottery_winner_selection_method_options]
+* Tweak - Tested with WordPress v6.7.0 & WooCommerce v9.4.2
+
+2024-10-24 - version 10.5.0
+* New   - Added email shortcode {tickets_pdf_download_button} to display PDF ticket download link in lottery emails(Customer - Lottery Participation Confirmation & Customer - Lottery Participation Confirmation for recent order)
+* Tweak - Improvement made in lucky dip
+* Fix   - Incorrectly duplicate tickets are generated when using cart and checkout block
+* Fix   - Entry list not working properly conflict with Yoast SEO plugin
+
+2024-10-08 - version 10.4.0
+* New   - Added options to sort by remaining ticket count
+* New   - Added options to customize the Lottery Ticket(s) pdf header and footer labels
+* New   - Added option in the lucky dip to display the tickets without adding to the cart
+* New   - Added Customer - lottery instant winner for recent order notification
+* Tweak - Improvements made in pagination for [lty_lottery_instant_winners_by_date] shortcode
+* Tweak - Code improvement made in admin lottery instant winner email notification
+* Tweak - Improvement made in displaying lottery name on Customer - lottery instant winner for recent order email
+* Tweak - Tested with WordPress v6.6.2 & WooCommerce v9.3.3
+* Fix   - Tickets not being generated when using WooCommerce POS plugin
+
+2024-08-12 - version 10.3.0
+* New   - Added option to display the remaining tickets message on shop and categories page  
+* New   - Display Lottery Product id, Ticket id, Winner id on lottery post table
+* New   - Added winning item shortcode for Customer - Lottery Winner emails
+* Tweak - Improvements made in popup(Tickets display) on lottery dashboard 
+* Tweak - Improvements made in Export CSV option(To export the lottery ticket entries) on lottery post table
+* Tweak - Improvements made in Export CSV option(To export instant Win Prize fields) on Instant Win Prize settings
+* Tweak - Improvement made in displaying lottery price
+* Tweak - Code Improvements in customer lottery winner email
+* Tweak - Tested with WordPress v6.6.1 & WooCommerce v9.1.4
+* Fix   - Invalid data error thrown when adding lottery product to the cart with predefined buttons
+
+2024-07-13 - version 10.2.0
+* New   - Added Search option for lottery product on post table(backend)
+* New   - Added pagination for Instant win prize table on single product page
+* Tweak - Improvement made in Question Answer settings
+* Tweak - Improvement made in Pre-defined button settings
+* Tweak - Improvement made in displaying lottery status on single product page and shop page
+* Tweak - Improvement made in single product page Shortcodes
+* Tweak - Improvement in displaying shortcodes descriptions for Messages & localization settings(backend)
+* Tweak - Improvement made in ticket search(using username) in ticket entries on single product page
+* Tweak - Display the chosen answer on lottery dashboard(frontend)
+* Tweak - Improvement made in displaying Q/A options in Dropdown
+* Tweak - Tested with WordPress v6.5.5 & WooCommerce v9.1.2
+
+2024-06-24 - version 10.1.0
+* New   - Added pagination for instant win prizes on the lottery product page
+* Tweak - Improvement made in updating failed and finished lottery products
+* Tweak - Improvement made in Winners selection(Automatic & manual) for finished lottery
+* Tweak - Improvement made in selecting or de-select tickets on mobile with the Safari browser
+* Tweak - Improvements made in shortcodes display
+* Tweak - Tested with WordPress v6.5.4 & WooCommerce v9.0.1
+
+2024-05-21 - version 10.0.0
+* Tweak - Improvement made in displaying Lottery Entry List page for guest users
+* Tweak - Improvement made in Predefined Buttons Discounts for quantity selector
+* Tweak - Improvement made to prevent updating the finished lottery product through quick edit 
+* Tweak - Improvement made in displaying the Ticket Numbers in WooCommerce order emails 
+* Tweak - Improvement made in PDF ticket number to download
+* Tweak - Tested with WordPress v6.5.3 & WooCommerce v8.8.3
+* Fix   - Instant Win Prizes Shortcode [lty_instant_win_prizes] not working properly for User Chooses Ticket type
+* Fix   - Number of Winners count not working properly for Automatic Winner Selection type
+
+2024-04-29 - version 9.9.0
+* New   - Added Export & Import options for instant win prize settings
+* Tweak - Code Improvements
+* Tweak - Improvement made in server cron for automatic relist
+* Tweak - Improvement made in save the instant win Prize rules
+* Tweak - Tested with WordPress v6.5.2 & WooCommerce v8.8.2
+* Fix   - Lottery details(Lottery page & Entry List page) displaying incorrectly to the users when the page visibility on private
+
+2024-03-20 - version 9.8.0
+* Tweak - Added option to display quantity selector when enabled predefined buttons 
+* Tweak - Added options to customize the Lottery Ticket(s) PDF background color
+* Tweak - Added filter options to search the tickets on admin lottery post table
+* Tweak - Improvement made in displaying closed, finished, failed lotteries in entry list
+* Tweak - Improvement made in deleting lottery product 
+* Tweak - Improvement made in updating the closed lottery product
+* Tweak - Tested with WooCommerce 8.7.0
+* Fix   - Hide lottery winner message on single product page option not working
+
+2024-02-22 - version 9.7.0
+* Tweak - Supported Apple pay and Google Pay for lottery products
+* Tweak - Tested with WooCommerce 8.6.1
+* Fix   - Lottery products incorrectly removed from the cart page when removing the reserved ticket in cart
+
+2024-02-01 - version 9.6.0
+* New   - Added Unique Winner(s) option
+* New   - Compatible given with Cart and Checkout Blocks
+* Tweak - Improvements made in manual winner selection display
+* Tweak - Improvement made in PDF ticket numbers & entry list 
+* Tweak - Improvement made in ticket numbers sorting on lottery tickets post table 
+* Tweak - Improvements made in User Lottery Dashboard
+* Tweak - Tested with WordPress v6.4.3 & WooCommerce v8.5.2
+* Fix   - Date label not translated properly on frontend
+* Fix   - Error thrown in lottery product backend when save the page with WooCommerce Single Product block
+
+2023-01-10 - version 9.5.0
+* New   - Added option to download lottery ticket number as PDF in Thank you page & Order details page
+* New   - Admin & Customers can download the lottery ticket number as PDF in Ticket confirmation emails
+* New   - Added option to download Lottery Entry List as PDF
+* Tweak - Added options to hide some details in Entry List page
+
+2023-12-16 - version 9.4.0
+* Tweak - Improvements made in Ticket Search in Lottery Details tab on single product page
+* Tweak - Improvement made in displaying [lty_lottery_count_down_timer] shortcode
+* Tweak - Improvement made in displaying Lottery Participants count & Ticket Search in lottery post table(backend)
+* Tweak - Tested with WordPress v6.4.2 & WooCommerce v8.4.0
+* Fix   - Ticket numbers not generated when placing an order using checkout blocks
+* Fix   - Customer - Better Luck next time email {product_name} shortcode not working properly
+* Fix   - Deprecated(WP_List_Table) error thrown in Lottery post table
+
+2023-11-14 - version 9.3.0
+* Tweak - Improvement made in default sorting for displaying lottery products in Entry List page
+* Tweak - Improvement made in sending Customer - Lottery Winner & Multiple Winner emails
+* Tweak - Improvement made in displaying ticket details in WooCommerce order emails
+* Tweak - Tested with WordPress v6.4.1 & WooCommerce v8.2.2
+* Fix   - Other products not displaying in shop page when lottery plugin is activated
+* Fix   - Lottery not ended properly
+
+2023-11-07 - version 9.2.0
+* New   - Added option to display lottery details for closed, failed and finished lotteries on product page
+* New   - Added few shortcodes([lty_lottery_instant_winners_by_date] & [lty_lottery_date_notice])
+* New   - Instant Win Prizes for User Chooses Ticket type
+* New   - Added option to hide Predefined button when stock quantity is lesser than Predefined button quantity
+* New   - Added option to display the ticket(s) sold Percentage inside the progress bar
+* Tweak - Improvement made in displaying Closed, Failed and Finished lotteries in Entry List
+* Tweak - Multi-select option display improvement
+* Tweak - Improvements made in Search Tickets option for Lottery Tickets details on product page
+* Tweak - Improvements made in Preset(Default) quantity validation
+* Tweak - Improvements made in displaying Lottery Tickets & Instant Win Prizes on Tickets log(Lottery post table)
+* Tweak - Tested with WordPress v6.3.2 & WooCommerce v8.2.1
+
+2023-10-03 - version 9.1.0
+* New   - Added email shortcode to display winner details in Customer - Better Luck Next Time email
+* New   - Added option to display Lottery Dashboard menu in My Account Page
+* New   - Added option to display tickets sold percentage as round or decimal in progress bar on product page & shop page
+* Tweak - Improvements made in instant Win Prizes display
+* Tweak - Improvements made in [lty_lucky_dip] shortcode display
+* Tweak - Improvements made in shortcodes to displaying the content
+* Tweak - Tested with WooCommerce v8.1.1
+* Fix   - Lottery product not added to the Cart properly conflict with PayPal
+
+2023-09-11 - version 9.0.0
+* New   - Added Lottery Entry List
+* New   - Added shortcodes to displaying lottery products based on order(start_date, end_date, finished_date, closed_date, and failed_date)
+
+2023-09-04 - version 8.9.0
+* New   - Added option to hide sold ticket numbers in user chooses ticket type on product page
+* Tweak - Improvement made in displaying ticket status on lottery post table when updating the order status
+* Tweak - Improvement made in updating lottery product status when reached the end time
+* Tweak - Tested with WordPress v6.3.1 & WooCommerce v8.0.3
+
+2023-08-23 - version 8.8.0
+* New   - Added option to display sold tickets percentage in progress bar for the lottery product
+* New   - Added separate option to customize Participate Now button for User Chooses tickets
+* New   - Added shortcode {ticket_quantity} to display ticket quantity value in Participate Now button customization
+* Tweak - Shortcodes Improvement [lty_user_chooses_ticket product_id = "product_id"] & [lty_lucky_dip product_id = "product_id"]
+* Tweak - Improvements made in displaying lottery product settings(Edit product page)
+* Tweak - Improvements made in Instant Win Prizes shortcode [lty_instant_win_prizes product_id = "product_id"]
+* Tweak - Tested with WooCommerce v8.0.2
+* Fix   - Fatal error thrown on lottery product page frontend
+
+2023-08-10 - version 8.7.0
+* Tweak - Improvements made in displaying Lottery Tickets Dashboard(frontend)
+* Tweak - Supported PHP 8.2.0
+* Tweak - Improvement made in validation for Lottery Start date and End date
+* Tweak - Tested with WordPress v6.3.0 & WooCommerce v8.0.1
+* Fix   - Guest User error message not displaying properly
+* Fix   - Improvements made in relist data when duplicate lottery product
+* Fix   - Ticket number not displaying properly in Automatic ticket generate type
+
+2023-07-29 - version 8.6.0
+* New   - Added option to display ticket numbers as Shuffled in user chooses ticket type
+* New   - Added View More Tickets option(split the ticket numbers display) in per tab on user chooses ticket type
+* New   - Added option to set default quantity for Automatic Ticket Generation Type
+* Tweak - Improvements made in displaying Instant winners name
+* Tweak - Improvements made in displaying lottery configuration information on lottery post table
+* Tweak - Improvements made in displaying lottery status separated by different colors on lottery post table
+* Tweak - Improvements made in displaying lottery end reason in Lottery Ended email
+* Tweak - Improvements made in displaying ticket number in Thank you page & order details page when enable Instant Win Prizes
+* Tweak - Tested with WooCommerce v7.9.0
+* Fix   - Instant Win Prizes not update properly when duplicate lottery product
+
+2023-06-26 - version 8.5.0
+* New   - Added option to display Logo image in lottery emails
+* New   - Added Shortcodes to display Logo image, User billing details in lottery emails
+* New   - Added shortcode to display user chooses ticket
+* New   - Added shortcode to display lucky dip in user chooses ticket type
+* Tweak - Improvement made in shortcode [lty_lottery_tickets_sold_percentage] to display ticket sold count percentage in decimal
+* Tweak - Improvement made in export all lottery tickets
+* Tweak - Improvement made in reduce loading when the lottery product has large tickets counts
+* Tweak - Improvement made in [lty_lottery_products_winners_list] shortcode
+* Tweak - Tested with WooCommerce v7.8.0
+
+2023-05-25 - version 8.4.0
+* New   - Supported with High Performance Order Storage[HPOS]
+* Tweak - Improvement made in ticket number display
+* Tweak - Tested with WordPress v6.2.2
+* Fix   - Instant Win email sending Incorrectly
+
+2023-05-18 - version 8.3.0
+* New   - Added emails for lottery ticket confirmation for recent order to customer and admin
+* Tweak - Improvement made in displaying order number in email using {order_id} & {order_number} shortcodes
+* Tweak - Tested with WordPress v6.2.1 and WooCommerce v7.7.0
+* Fix   - Reserved tickets not working properly when login in checkout
+* Fix   - Lottery status not updated properly when set future date to publish the product
+
+2023-05-08 - version 8.2.0
+* New   - Added Lottery Extended email for Admin and Customer
+* New   - Added Screen options for Lottery post table to set entries per page
+* New   - Added Export CSV option to Export all tickets of the Lottery Products
+* New   - Added Dropdown option for display the Options in Q/A
+* Tweak - Improvements made in Export CSV file
+* Tweak - Tested with Woocommerce 7.6.1
+* Fix   - Range Slider Preset option not working properly conflict with Minimum tickets
+
+2023-04-19 - version 8.1.0
+* Tweak - Improvements made in Instant Win Prizes
+* Tweak - Assigned Shuffled Ticket Number Pattern as default in Automatic Ticket Generation Type
+* Tweak - Improvement made in shortcode for displaying lottery Winner(s) details by date
+* Tweak - Tested with WooCommerce v7.6.0
+
+2023-04-11 - version 8.0.0
+* New   - Added Instant Win Prizes
+* New   - Added Shortcode for displaying lottery Winner(s) details by date
+* Tweak - Improvement made in ticket generation for Manually created order
+* Tweak - Improvement made in editing when lottery product in draft
+* Tweak - Improvement made in displaying mandatory fields in lottery product settings
+* Tweak - Tested with WordPress v6.2.0 and WooCommerce v7.5.1
+* Fix   - Start and End date displaying incorrectly in lottery product page
+
+2023-03-20 - version 7.6.0
+* Tweak - Improvements in displaying winner user name label
+* Tweak - Tested with WooCommerce v7.5.0
+
+2023-03-08 - version 7.5.0
+* New   - Added Automatic Relist option for lottery product
+* New   - Added Quantity Selector Range Slider option for Automatic Ticket Generation Type
+* New   - Added option to display username as "First Name only" in Ticket details tab and Winners details in frontend
+* Tweak - Display ticket number in Winners list table
+* Tweak - Tested with WooCommerce v7.4.1
+* Fix   - Fatal Error thrown on frontend
+* Fix   - Started Email sending incorrectly when product in draft
+* Fix   - Lottery status not updated properly
+
+2023-02-24 - version 7.4.0
+* Tweak - Improvement made by displaying Phone number in Lottery Export CSV
+* Tweak - Improvement made in Mask the User Name in Tickets Log Tab on  the Single Product Page
+* Tweak - Tested with WooCommerce v7.4.0
+
+2023-01-06 - version 7.3.0
+* New   - Option added to set Maximum Tickets to purchase in a Order for  the lottery product
+* New   - Shortcodes added to display Predefined Button values
+* New   - Added option to choose Answer in Q/A when creating Manual  order for lottery product
+* Tweak - Tweak: Improvement made in Default Sorting in the lottery page
+* Tweak - Improvement made in Reserved tickets option
+* Tweak - Tested with  WooCommerce v7.2.2
+* Fix   - Sort by recently started lotteries option not working properly
+
+2022-12-10 - version 7.2.0
+* Tweak - Improvement made in Lottery Start and End Date pickers
+* Tweak - Improvements made in displaying Guest user First name and Last  name in Export CSV file
+* Tweak - Improvement made in default values on Lottery settings
+* Fix   - Invalid tickets number display in the cart when again update  Maximum tickets value
+
+2022-11-25 - version 7.1.0
+* Tweak - Improvements made in Lottery product display by added filters
+* Tweak - Improvements made in View Cart button on Lucky Dip
+* Tweak - Tested with WordPress v6.1.1 and WooCommerce v7.1.0
+
+2022-11-11 - version 7.0.0
+* New   - Added Lottery Started Email to the customers(All registered-users  in the site)
+* New   - Added Search option for Lottery Tickets details tab in single  product page
+* Tweak - Added Short description shortcode to display the Short  description for lottery products
+* Tweak - Improvements made in Settings
+
+2022-11-07 - version 6.9.0
+* New   - Added option to display ticket number(s) in Thank you page &  Order Details page only when payment is received.
+* Tweak - Tested with WordPress v6.1.0 and WooCommerce v7.0.1
+
+2022-10-20 - version 6.8.0
+* Tweak - Tested with WordPress v6.0.3 and WooCommerce v7.0.0
+* Fix   - Error thrown when create the manual order for lottery product
+
+2022-09-26 - version 6.7.0
+* New   - Added option to set Time-limit for Answering the Question in the Lottery Product
+* Tweak - Added option to hide the confirmation alert(To make sure the selected Answer) for the Question and Answer
+* Tweak - Improvement made in Automatic winner Selection
+* Tweak - Option to customize "Add More Lucky dip"
+* Tweak - JS improvements made in Lottery product settings
+* Tweak - Tested with WordPress v6.0.2 and WooCommerce v6.9.3
+* Fix   - Lottery date picker(Start Date and End Date) not working conflict with WooCommerce Custom Fields by RightPress
+
+2022-07-08 - version 6.6.0
+* Tweak - Added option to customize the pagination for Lottery Winners list and Lottery Dashboard
+* Tweak - Improvements made in frontend Pagination display
+* Tweak - Tested with WooCommerce v6.6.1
+
+2022-06-17 - version 6.5.0
+* Tweak - Improvement made in displaying the lottery products when using the shortcodes
+* Tweak - Settings Improvements	    
+* Tweak - Tested with WooCommerce v6.6.0
+
+2022-06-02 - version 6.4.0
+* Tweak - Hide quantity when assigned 1 in maximum tickets per user 
+* Tweak - Added Billing and Shipping company name in Export CSV file
+* Tweak - Improvements made in predefined buttons
+* Tweak - Tested upto Wordpress v6.0.0
+
+2022-05-19 - version 6.3.0
+* New   - Added Alphabet ticket numbers for User Chooses the Ticket Type
+* Tweak - Tested with WooCommerce v6.5.1
+
+2022-05-11 - version 6.2.0
+* Tweak - Code Improvements
+* Tweak - Improvements made in default values
+* Fix   - Warning error thrown when WooCommerce plugin is deactivated
+
+2022-05-02 - version 6.1.0
+* Tweak - Improvements made in Lucky Dip display
+* Tweak - Assigned default product type as Lottery when click Add New Lottery button
+
+2022-04-21 - version 6.0.0
+* New   - Added Guest user(s) support to purchase the lottery tickets
+* Tweak - Code improvements on Exporting CSV file for lottery tickets
+* Tweak - Code improvements on QA settings
+* Tweak - Tested with WordPress v5.9.3 and WooCommerce v6.4.1
+* Fix   - PHP Deprecated error thrown on backend
+
+2022-04-02 - version 5.9.0
+* Tweak - Added options to customize the Lottery winners list shortcode table labels
+* Tweak - Added option to customize Minimum tickets not met error message in lottery product page
+* Tweak - Added option to customize Purchased Tickets message in lottery product page
+
+2022-03-25 - version 5.8.0
+* New    - Added option to list the Order(s) which not having ticket number(s) in the lottery post table
+* Tweak  - Code improvement made in displaying the status filters in lottery post table
+* Tweak  - Improvements made in Automatic random ticket type on edit product page
+* Tweak  - Tested upto WordPress v5.9.2 and WooCommerce v6.3.1
+
+2022-03-01 - version 5.7.0
+* New    - Added options to customize URL parameters for lottery dashboard menu(s)
+* Tweak  - Code improvement made in lottery dashboard menu(s)
+* Tweak  - Made improvements in Automatic random ticket type(validate Maximum tickets value and Ticket Length value)
+* Tweak  - Tested upto WordPress v5.9.1 and WooCommerce v6.2.0
+
+2022-02-05 - version 5.6.0
+* Tweak  - Made improvements by displaying error message about Manage stock for lottery products
+* Tweak  - Tested upto WordPress v5.9.0 and WooCommerce v6.1.1.
+
+2022-01-01 - version 5.5.0
+* Tweak  - Code improvement made in Reserve Ticket Number for manual selection form
+* Tweak  - Tested upto WordPress v5.8.2 and WooCommerce v6.0.0
+* Fix    - Show/Hide Gift Product option not working
+
+2021-12-09 - version 5.4.0
+* New    - Added option for participate now button redirection to checkout page	
+* Tweak  - Code improvement made in maximum tickets per user restriction
+* Fix    - Pagination not displayed in Lost Lotteries menu dashboard
+
+2021-11-09 - version 5.3.0
+* New    - Added ticket search bar option for manual selection form
+* New    - Added option to prevent ticket generation for incorrectly selected answer
+* New    - Added maximum tickets per user message in lottery product page
+* New    - Added customization option for add to cart label for failed, closed and finished lottery product on shop page
+* Tweak  - Code improvement made in lucky dip button
+* Tweak  - Improvements in related products for displaying started lottery products
+* Fix    - Error occurs on lottery winner details table on lottery product page when gift product is not configured
+
+2021-09-23 - version 5.2.0
+* Tweak  - Code improvements on participate now button price
+* Tweak  - Code improvements on lottery tickets tab for manual selection form
+
+2021-08-21 - version 5.1.0
+* Tweak  - Code improvements on Exporting CSV file for lottery tickets
+
+2021-07-22 - version 5.0.0
+* New    - Added compatibility for Apple Pay and GPay when using Square Gateway
+
+2021-06-26 - version 4.9.0
+* Tweak - Option to hide progress bar for individual lotteries
+* Tweak - Option to Mask username column in winnners table in product page & shortcode
+* Tweak - Option to show/hide username column in lottery winners list shortcode
+* Fix   - 404 error occur on the lottery backend page
+
+2021-06-05 - version 4.8.0
+* New   - Added email shortcode information in Lottery emails
+* Tweak - Code improvement for selecting/unselecting the tickets in mobile view for "User Chooses the Ticket" type
+* Fix   - Datepicker not displayed in edit product page when Ave Core and Manzil plugin is active
+* Fix   - PHP warning error in the error log when the user is deleted from their site
+
+2021-05-22 - version 4.7.0
+* Tweak - Shortcodes added for displaying selected answer{selected_answer} and correct answer{correct_answer} in Admin & Customer - Lottery Ticket Confirmation Emails
+* Fix   - Predefined buttons fixed price option not working properly
+
+2021-05-07 - version 4.6.0
+* Tweak - Code improvement for displaying the number of tickets per tab in "User Chooses the Ticket" type
+
+2021-04-24 - version 4.5.0
+* Fix - In Automatic type, Ticket number not displayed on order details page
+
+2021-04-17 - version 4.4.0
+* Tweak - Code improvement for predefined buttons
+* Tweak - Added option to customize the Export CSV filename
+* Tweak - Improvements for Lucky Dip button Redirect to cart page
+
+2021-04-01 - version 4.3.0
+* New   - Added WPML Compatibility
+* New   - Added compatibility for Apple Pay and GPay when using Stripe Gateway
+* New   - Added shortcode [lty_lottery_tickets_sold_percentage] to display the lottery tickets sold percentage
+* New   - Added shortcode [lty_lottery_maximum_tickets_per_user_notice] to display maximum tickets per user notice
+* New   - Added option to choose the Default Sorting in the Lottery page
+* Tweak - Code improvement on Order by Ticket number in lottery details tab
+* Tweak - Option to hide Participate now button till the user answers the question and selects a ticket number
+* Tweak - Question Answer heading label can be customized
+* Tweak - Added {ticket_number} shortcode in the Customer Lottery Winner emails
+	
+2021-03-12 - version 4.2.0
+* New   - Added shortcodes [lty_lottery_maximum_tickets_per_user] & [lty_lottery_minimum_tickets_per_user] to display maximum and
+            minimum  tickets per user
+* Tweak - Added Maximum ticket(s) purchase limit reached error message on product page
+* Tweak - Code improvement when ticket is generated on placing order
+* Tweak - Added Fixed Price Type for predefined buttons
+* Tweak - Added {discount} Shortcode for predefined buttons label
+* Tweak - Added {lty_lottery_details_tab} Shortcode to display the  lottery details tab
+* Tweak - Participate now button Price changed dynamically on changing the quantity
+* Tweak - Added order by Post ID / Ticket Number and order by ASC/DESC option in lottery details tab
+* Tweak - Added {first_name} & {last_name} shortcodes on customer emails
+* Fix   - User Details Display Type in Lottery Details tab option not working
+* Fix   - Duplicate tickets occurs in random ticket generation type
+ 
+2021-02-19 - version 4.1.0
+* Tweak - Category attribute added for lottery shortcodes
+* Tweak - Code improvements made on shortcodes
+* Fix   - Internal Server Error while placing a lottery order
+
+2021-02-10 - version 4.0.0
+* New   - Predefined buttons to select the number of tickets to be purchased
+* Tweak - Code improvements on Automatic ticket type
+* Tweak - Added {ticket_count} shortcode to display the Tickets Sold in Progress Bar
+* Fix   - Lottery status not changing to "Finished" for Automatic Winner Selection type
+
+2021-01-12 - version 3.9.0
+* Tweak - RTL support for email
+* Tweak - Multiple Recipient(s) added for admin emails
+* Tweak - Option to Show/Hide answers in Lottery Details Tab
+* Tweak - Code improvements made on shortcodes and shop filters
+* Fix   - Lucky dip not working
+
+2021-01-02 - version 3.8.0
+* Tweak - Pagination option added for Lottery Details tab
+* Tweak - Backward Compatibility Improvement made for Automatic  Ticket Regeneration
+* Fix   - Fatal Error occurs when winner is chosen
+
+2020-12-21 - version 3.7.0
+* Tweak - Added Q&A verify answer limited/unlimited type option
+* Fix   - Loading issue on lottery product occurs when start and end date field is left empty
+
+2020-12-11 - version 3.6.0
+* Fix - Maximum Number of Tickets keeps changing whenever the product is saved/modified
+
+2020-12-04 - version 3.5.0
+* New   - Added Minimum Restriction per user option
+* Tweak - Added Global Settings for Question answer Module
+* Tweak - Get Confirmation from user before verifying the answer in Question and Answer Module
+
+2020-11-18 - version 3.4.0
+* New   - Added shortcode to display lottery question and answer
+* Tweak - Improvements made on force login on checkout page for WooCommerce Version 4.7
+
+2020-11-12 - version 3.3.0
+* Tweak - Improvements to lottery post table display
+* Tweak - Improvements to lottery winner count
+* Fix   - User Chooses the ticket type not working properly when starting Ticket Starting Number is set as '0'
+
+2020-11-01 - version 3.2.0
+* New   - Ticket Regeneration from Order Details Page
+* Tweak - Cart Validation Improvements made in User Chooses the ticket type
+
+2020-10-09 - version 3.1.0
+* New   - Option to hide Lottery Status on Shop and Category Pages
+* New   - Option to hide Lottery Tickets Sold Count on Single Product Page
+* New   - Option to hide Countdown timer for individual lotteries
+* New   - Added Shortcode [lty_finished_lottery_products] to display finished lottery products
+* Tweak - Guest login message is now customizable
+* Tweak - Outside the Site Winning Item URL will be presented as a hyperlink
+* Tweak - Improvement made in lottery tickets when the order get Cancelled/Refunded/Failed
+
+2020-09-26 - version 3.0.0
+* New   - Option to hide Failed Lottery Products on Shop & Category pages
+* New   - Option to hide Closed Lottery Products on Shop & Category pages
+* Tweak - Option to display user name/first & last name column in the lottery details tab on the single product page
+* Tweak - Improvement made for Maximum tickets per user
+* Tweak - Improvement made in the Customer - Better Luck Next Time email
+* Fix   - Reserved tickets notice still displayed when the selected lottery product is placed
+* Fix   - When ticket prefix and suffix are given for manual selection, ticket selection does not work properly
+* Fix   - Lottery Status Filter not shown in the lottery post table
+* Fix   - Lucky Dip not working properly
+
+2020-09-17 - version 2.9.0
+* New   - Option to hide Finished Lottery Products on Shop & Category pages
+* Tweak - Validation error messages on single product page
+
+2020-09-09 - version 2.8.0
+* New   - Added shortcodes to display lottery status, start date, end date, count down timer, minimum tickets, maximum_tickets, progress bar, winning item & tickets sold count
+* New   - Verify Answer Before Purchasing Lottery
+* Tweak - Deleting the user details from the Lottery when a user is deleted
+* Fix   - Incorrect ticket number is selected on using the lucky dip option for manual selection type
+* Fix   - Fatal Error occurs on the Backend page
+
+2020-09-01 - version 2.7.0
+* Tweak - Code Improvements
+
+2020-08-18 - version 2.6.0
+* New   - Reserve ticket number for a specific time for manual ticket selection type
+* Tweak - Added ticket prefix & suffix for the automatic ticket type(Sequential and Shuffled) and manual ticket selection
+* Tweak - Added hide option for lottery status in the single product page
+* Fix   - Search filter does not work in Lottery Tickets List table
+* Fix   - Fatal error occurs when the lottery ticket order is cancelled/failed/refunded
+* Fix   - Relist not working properly
+
+2020-08-08 - version 2.5.0
+* Tweak - Added options to hide the lottery start date & end date in the shop and single product page
+* Tweak - Improvements to [lty_lottery_products_winners_list] shortcode to display winner list for guest users
+* Tweak - Added Automatic Ticket numbers in WooCommerce Order Email and in Thank you page
+* Fix   - Question & Answer not displayed when placing the order using Order again button
+* Fix   - Conflict with Elessi Theme causes lottery products not added to the cart
+* Fix   - Fatal error in single product page when gift products are deleted
+
+2020-08-01 - version 2.4.0
+* New   - Added Sequential & Shuffled Ticket patterns in Automatic ticket number type
+* Tweak - Settings improvement ticket selection type [Manual / Automatic type]
+* Tweak - Interchanged the Positions of Lottery Question and Ticket selection for better usability
+* Tweak - Added User first name and last name columns for the Export CSV file
+* Tweak - Improvements in Customer & Admin Lottery Participation Confirmation Email(When purchasing multiple lottery products tickets at the same order)
+* Tweak - Frontend Performance Improvements
+* Tweak - Shortcode{lottery_winning_item} added in Customer & Admin Lottery Participation Confirmation Emails to display lottery prizes information
+* Fix   - Ticket Sold Count not working properly when lottery ticket order is canceled/failed/refunded
+* Fix   - Lottery Winners not generated properly for relisted lotteries
+
+2020-07-20 - version 2.3.0
+* New - Option added to Hide Specific Lottery Info in the product page
+
+2020-07-16 - version 2.2.0
+* New - Option added to Export the Lottery details
+* New - Option added to display the Progress bar in the Shop, Category and Lottery page
+
+2020-07-11 - version 2.1.0
+* Tweak - Improvements in Emails.
+* Fix   - Restrict the Manual Winner selection if the lottery is failed
+
+2020-07-09 - version 2.0.0
+* Fix - Lottery Winner email sent to all participants
+
+2020-07-04 - version 1.9.0
+* Tweak - WooCommerce Product Search plugin based conflict improvement
+* Fix   - Conflict with WooCommerce Product Search Plugin(Search not working)
+
+2020-07-02 - version 1.8.0
+* New   - Option to customize the Ticket Starting Number when "Allow Users to Choose Ticket Numbers" is enabled
+* New   - Added Progress Bar option for single product page
+* Tweak - User bought ticket notice display improvements
+* Tweak - Ticket sold count display improvements
+* Tweak - Finished Lottery Relist Improvements
+* Fix   - Maximum Tickets Per User improvements
+
+2020-06-24 - version 1.7.0
+* New   - Option to Prevent Multiple Users from the Same IP Address to Participate in a Lottery
+* Tweak - Lottery Ticket Number Display Improvements
+* Tweak - Lottery Winning Product Display Improvements
+* Fix   - Admin Winner Lottery Email does not work properly
+* Fix   - Lottery Start Time Display Improvements in Lottery Started email when using Start Now Button
+* Fix   - User Lottery Dashboard Display Improvements
+* Fix   - Not able to add Lottery products to cart for Guest Users
+
+2020-06-20 - version 1.6.0
+* New   - Added Lucky Dip option
+* New   - Added color customization options
+* Tweak - Improvements to countdown timer
+* Fix   - Ticket quantity not updating properly in cart based on Maximum Tickets per User.
+* Fix   - Quantity update option incorrectly displayed in product page(only for  some themes) when "Allow Users to Choose Ticket Numbers" is 		   enabled
+* Fix   - Server Cron error message displayed unnecessarily
+* Fix   - Maximum Tickets limit not working properly
+* Fix   - Quantity update box not displayed in single product page for automatic ticket generation type
+
+2020-06-13 - version 1.5.0
+* New - Added WP Cron option.
+* New - Added option to hide countdown timer in the lottery product page
+* New - Added Compatibility for Product Add on
+* New - Added option for the guest user to Force to login on checkout
+* Fix - Lottery settings not display in the edit product page when the WP Job Manager plugin is activated
+* Fix - Maximum Tickets per User not working properly
+
+2020-06-12 - version 1.4.0
+* New   - Added Question and Answer option
+* Tweak - Tax related Improvements in product configuration
+* Tweak - Ticket Display Improvements
+* Tweak - Guest Workflow Improvements
+* Fix   - Relist not working properly
+
+2020-06-05 - version 1.3.0
+* New - Added Manual Extend option to extend the lottery end time
+* Fix - Sale price does not display properly for lottery products
+
+2020-06-03 - version 1.2.0
+* Fix - Shortcode value not taken properly in the Customer - Lottery  Participation Confirmation Email
+* Fix - Error thrown in the console on the Edit Product Page
+* Fix - Ends on and Starts on Customization message not working properly
+* Fix - Incorrectly gift product order email(WooCommerce order email) sent to the winners
+
+2020-06-01 - version 1.1.0
+* New   - Added Custom CSS option
+* New   - Added Server Cron Information
+* Tweak - Added customization options for the lottery countdown timer(days, hours, minutes, seconds)
+* Tweak - Added customization options for the lottery status
+* Fix   - Lottery countdown timer does not work properly in some browsers
+
+2020-05-09 - version 1.0.0
+* Initial Release
